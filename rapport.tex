@@ -1,0 +1,585 @@
+\documentclass[a4paper,12 pt]{article}
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{mathtools, bm}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{systeme}
+\usepackage{fixltx2e}
+\usepackage{tgheros}
+\usepackage{comment}
+\usepackage{hyperref}
+\usepackage{blindtext}
+\usepackage[a4paper, total={7in, 10in}]{geometry}
+\usepackage{xcolor}
+\usepackage{graphicx,wrapfig,lipsum}
+\usepackage{tabularx}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\subsectionmark}[1]{\markboth{#1}{}} % MAKE IT 'subsectionmark' INSTEAD OF 'sectionmark'
+
+\fancyhf{}
+
+\fancyhead[L]{\leftmark} 
+\fancyhead[R]{AU: 2021/2022}%%%%%%%%%CHANGE 'L' TO 'R' HERE %%%%%%
+\fancyfoot[R]{\thepage / 32}
+\fancyfoot[L]{\scriptsize{Z.ZIANE, I.QAFFOU}}
+\fancypagestyle{plain}{%
+    \fancyhf{}%
+    
+}
+\usepackage{graphicx}
+\usepackage{lipsum}
+\renewcommand{\footrulewidth}{0.4pt}
+\setlength\headheight{39pt} 
+\title{Rapport PFE}
+%%margin for garde page
+\makeatletter
+% we use \prefix@<level> only if it is defined
+\renewcommand{\@seccntformat}[1]{%
+  \ifcsname prefix@#1\endcsname
+    \csname prefix@#1\endcsname
+  \else
+    \csname the#1\endcsname\quad
+  \fi}
+% define \prefix@section
+\newcommand\prefix@section{}
+\newcommand{\prefix@subsection}{\thesubsection\ - }
+\newcommand{\prefix@subsubsection}{\thesubsubsection\ - }
+\renewcommand{\thesubsection}{\arabic{subsection}}
+\makeatother
+
+
+\begin{document}
+
+
+\thispagestyle{empty}
+
+\setlength{\marginparwidth}{0pt}
+\setlength{\marginparsep}{0pt}
+\begin{minipage}{0.48\textwidth}
+\begin{flushleft}
+  \includegraphics[width = 90pt,height=75pt]{usmslogo.png}
+\end{flushleft} 
+\end{minipage}
+\begin{minipage}{0.48\textwidth}
+  \begin{flushright}  
+	\includegraphics[width = 50pt,height=60pt]{fstlogo.png}  
+  \end{flushright}
+\end{minipage} 
+    \begin{center}
+    \noindent\rule{7in}{0.5pt}
+    \end{center}
+\begin{minipage}{0.48\textwidth}
+\begin{flushleft}
+  Année Universitaire 2021-2022
+\end{flushleft} 
+\end{minipage}
+\begin{minipage}{0.48\textwidth}
+  \begin{flushright}  
+	N°: ...../2022  
+  \end{flushright}
+\end{minipage} 
+\vspace*{0.5 in}
+\begin{center}
+\Large{Université Sultan Moulay Slimane} \nolinebreak\hspace{\fill}\linebreak
+\Large{ Faculté des Sciences et Techniques Béni Mellal}
+\end{center}
+\begin{center}
+\Large{\textbf{Licence Science et Techniques : Informatique}} \vspace*{0.3 in}\nolinebreak\hspace{\fill}\linebreak
+\Large{\textbf{Sujet :}}
+\vspace*{0.2 in}\nolinebreak\hspace{\fill}\linebreak
+\Large{ \color{blue} \textbf{Application d'apprentissage basée sur la réalité augmentée}}
+ \noindent\rule{6.6in}{0.4pt}
+ \nolinebreak\hspace{\fill}\linebreak
+ \normalsize{ Présenté et soutenu par:} \vspace*{0.1 in}
+\nolinebreak\hspace{\fill}\linebreak
+ \textit{\textbf{QAFFOU Ilyas}} et \textit{\textbf{ZIANE Zakaria}}
+ \vspace*{0.1 in}
+\nolinebreak\hspace{\fill}\linebreak
+ \large{ \textbf{Le 11 Juin 2022, devant le jury ci-dessous. }}
+\end{center}
+\begin{flushleft}
+\normalsize{\textbf{Jury :}} \vspace*{0.1 in}\nolinebreak\hspace{\fill}\linebreak
+\textit{Encadrant :} \vspace*{0.1 in}\nolinebreak\hspace{\fill}\linebreak
+\hspace*{0.5cm} \textbf{Mme. IDRISSI Najlae} : Professeur à la Faculté des Sciences et Techniques Béni-Mellal
+ \vspace*{0.3 in}\nolinebreak\hspace{\fill}\linebreak
+\textit{Examinateurs :} \vspace*{0.3 in}\nolinebreak\hspace{\fill}\linebreak
+\hspace*{2cm} \textbf{Mr. ..........................................}   : Professeur à la Faculté des Sciences et Techniques
+\vspace*{0.2 in}\nolinebreak\hspace{\fill}\linebreak
+\hspace*{2cm} \textbf{Mr. ..........................................}   : Professeur à la Faculté des Sciences et Techniques
+\vspace*{0.2 in}\nolinebreak\hspace{\fill}\linebreak
+\hspace*{2cm} \textbf{Mr. ..........................................}   : Professeur à la Faculté des Sciences et Techniques
+\vspace*{1.374 in}\nolinebreak\hspace{\fill}\linebreak
+\end{flushleft}
+%% flushleft aligner 3la lesser , vspace espace verticalement h horizontal
+\begin{center}
+    \noindent\rule{7in}{0.5pt}
+   \small{ Campus  Mghilla, BP 523, 23000 Béni Mellal-Maroc, Tél: + 2125234851(12/22/82), Fax: +212523485201 \nolinebreak\hspace{\fill}\linebreak
+    \textbf{Email} : fstbm@usms.ma , \textbf{Siteweb} : {\color{blue}\href{http://www.fstbm.ac.ma}{http://www.fstbm.ac.ma}} }
+ \end{center}
+
+
+
+
+
+
+
+
+\newpage
+\begin{center}
+\section{Abréviations}
+\begin{enumerate}[label= \arabic* - ]
+\item RA : Réalité augmentée $(Augmented \; reality)$
+\item OMG : Object Management Group
+\item SDK :  Kit de développement Studio $(Studio \; development \; kit )$
+\item NDK :  Kit de développement natif $(Native \; development \; kit )$
+\item API :  Interface de programmation applicative $(Application \; programming \; interface)$
+\item Mo : Mega octet
+\item MSIL : Microsoft Intermediate Language
+\end{enumerate}
+\end{center}
+\newpage
+\large
+\section{Dédicaces}
+Nous dédions ce modeste travail, comme preuve de respect, de gratitude, et de reconnaissance à : \\*
+A nos parents pour leurs amours, leurs patiences, ses encourages et ses sacrifices durant notre parcours universitaire. \\*
+A nos collègues pour leur compagnie et bons moments passés ensemble.
+A tous qu'ils nous ont motiver pour réaliser se travail.\\
+
+
+
+\newpage
+
+\begin{center}
+\section{Remerciements}
+Nos remerciements s'adressent particulièrement à notre encadrant et cheffe de département Madame \textbf{IDRISSI Najlae} pour toutes les informations et l'aide qu’elle a pu nous apporter dans le cadre du cours méthodologique, nous tenons à remercier tout les enseignants de notre filière qu'ils ont sacrifiés leurs temps pour nous bien former pour nous rendons des bons informaticiens et pour le grand honneur qu'ils nous font en acceptant de juger ce travail.
+
+\end{center}
+
+\newpage
+%% hada table de matiere ki tincrémenta dynamiquement
+%section === chapitre
+%subsebtion == section d chapter
+
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+\section{Introduction générale}
+
+L'apprentissage des enfants est devenu très dur et précisément pour les enfants entre 3 ans et 5 ans.\newline
+
+Des nombreuses familles trouvent énormément des difficultés pour rendre leurs enfants installés devant un livre même pendant quelques minutes,  
+parce que la lecture et l'apprentissage depuis les manuels devient une chose ennuyante surtout pour les enfants de cette génération qui sont habitués d'utiliser des appareils de la nouvelle technologie comme des téléphones portables, tablettes...
+la majorité de ces appareils sont employés d'une façon négative,
+la solution proposée est la rationalisation d'utilisation de ces appareils. \newline
+
+Notre objectif est de développer une application qui a des fonctionnalités limitées dédiée pour l'apprentissage des enfants qui le rend à la fois  utile et amusant en appliquant la technologie du réalité augmentée. \newline
+
+La réalisation de ce projets demande des pré-requis sur la modélisation orienté objet,  la programmation orienté objet et la conception des objets 3D. \newline
+
+Notre rapport est divisé en 3 parties : \newline
+\begin{enumerate}[label=$\blacktriangleright$]
+\item analyse des besoins et conception.
+\item Outils, Technologies et environnement de développement.
+\item Résultat de réalisation.
+\end{enumerate}
+
+    
+\newpage
+\begin{center}
+\section{Analyse et conception}
+\end{center}  
+\subsection*{Introduction}
+\subsection{L’analyse de l’existant}
+L'étude de l'existant permet de déterminer les points faibles et les points forts d'un produit actuel pour pouvoir déterminer les besoins des utilisateurs, on va présenter un analyse d'une application d'apprentissage basé sur la réalité augmentée dans Play Store (suite d'applications crée par Google, c'est un gestion des applications permet au utilisateur des  appareils Android certifiés par Google a parcourir une librairie qui dispose de plus de 3.6 millions applications Android).
+\subsubsection{Analyse de l'application MondlyAR pour Android}
+l'application MondlyAR permet au utilisateur de choisir une langue a apprendre pour visualiser des objets diffuser en réalité augmentée et entendre un son avec la langue choisi en première temps, cette application est considérer comme la première et la seule application d'apprentissage basé sur RA dans le Play Store .
+\subsubsection{Analyse fonctionnelle}
+L'application offre beaucoup de leçons en plusieurs langues à cause de la bibliothèque des ressources enligne, mais ça rendre l'application parfois inutile puis qu'il demande un accès au internet en durant le lancement d'application, cette applications est crée en 30 août 2019, il est développer a l'aide de API ARCore de Google, sa dernière mise a jour est effectuer le 30 Octobre 2019 qui signifie que l'application utilise des anciens version de ARCore, qui rendre aussi l'expérience de la réalité augmentée avec une précision moins que les nouveaux version qui propose des nouvelles API géospatiales ARCore qui décrit un emplacement spécifique, un dénivelé et une direction de direction par rapport à la terre.
+\newpage
+\begin{figure}[!hpt]
+\begin{center}
+\includegraphics[scale=0.14]{image/a1.jpg}
+\includegraphics[scale=0.14]{image/a2.jpg}
+\includegraphics[scale=0.14]{image/a3.jpg}
+\end{center}
+\caption{Captures d'écran d'application MondlyAR sur PlayStore et sur l'appareil.}
+\end{figure}
+\subsection{Conclusion}
+Après l'analyse nous avons constaté que la plupart cette applications d'apprentissage basé sur RA utilise des ressources stocker dans le cloud Firebase Storage qui impose l'utilisateur de rester connecter durant l'utilisation de l'application, demande a l'utilisateur d'acheter des abonnements pour débloquer des leçons et il utilise une ancienne version de ARCore avec API Sceneform archiver après la version 1.16 dans Android Studio.
+\newpage
+\normalsize
+\subsection{Conception et modélisation d'application}
+\subsubsection{Conception graphique}
+\subsubsection*{Modèle de navigation}
+Nous avons choisi le modèle de navigation linéaire, une activité redirige vers l'activité qui lui suive.
+\begin{figure}[!hpt]
+\begin{center}
+\includegraphics[scale=0.3]{ttn.png}
+\end{center}
+\caption{navigation en mode linéaire.}
+\end{figure}
+\subsubsection*{Prototypage}
+\begin{figure}[!hpt]
+\begin{center}
+\includegraphics[scale=0.43]{FRAMS.png}
+\end{center}
+\caption{Prototypage base fidélité (éditable).}
+\end{figure}
+\newpage
+\subsubsection{Modelisation graphique}
+\subsubsection{Les diagrammes}
+Les diagrammes sont des elements graphiques.Ceux-ci décrivent le contenu des vues, qui sont des notion abstraites. Les diagrammes peuvent faire partie de plusieurs vues.
+\subsubsection{Langage UML}
+L’UML est un langage de représentation destiné en particulier à la modélisation objet.
+UML est devenu une norme OMG en 1997.
+UML propose un formalisme qui impose de "penser objet" et permet de rester indépendant d'un langage de programmation donné.
+%------------------------------------------
+\begin{wrapfigure}{r}{8cm}
+\caption{Logo UML}\label{wrap-fig:1}
+\includegraphics[width=8cm]{uml.png}
+\end{wrapfigure} 
+
+
+ Pour ce faire, UML normalise les concepts de l'objet (énumération et définition
+exhaustive des concepts) ainsi que leur notation graphique.
+Il peut donc être utilisé comme un moyen de
+communication entre les étapes de spécification
+conceptuelle et les étapes de spécifications techniques.
+UML est utilisé pour spécifier, visualiser, modifier et
+construire les documents nécessaires au bon développement d'un logiciel orienté objet.
+UML offre un standard de modélisation, pour représenter l'architecture logicielle. Les
+différents éléments représentables sont : 
+\begin{enumerate}[label=\Alph*)]
+\item Activité d'un objet/logiciel.
+\item Acteurs.
+\item Processus.
+\item Composants logiciels.
+\end{enumerate}
+\subsubsection{Diagramme de cas d'utilisation}
+Les cas d'utilisation représentent les grands fonctionnalité de notre système :
+Les cas d'utilisation permettent :
+
+\begin{enumerate}[label=$\bullet$]
+\item De connaître le comportement du système sans spécifier comment ce comportement
+sera réalisé.
+\item De définir les limites précises du système.
+
+\end{enumerate}
+
+Le cas d’utilisation est un outil pour communiquer entre utilisateur final et concepteur.
+Donc le diagramme suivant donne une vision générale sur le comportement des acteurs de
+notre système et comment ils réagissent :
+\begin{figure}[!htbp]
+\begin{center}
+\includegraphics[width=4.45 in]{uc.png}
+\caption{Diagramme de cas d'utilisation.}
+\end{center}
+\end{figure}
+\newpage
+\subsubsection{Diagramme de séquence}
+\subparagraph*{Ouvrir la SessionAR} \hspace*{1 cm}\newline
+L'utilisateur ouvre la session a but de parcourir les objets 3D pour l'apprendre
+\begin{figure}[!htbp]
+  \centering
+    \includegraphics[width=1\textwidth]{SequenceDiagram.png}
+      \caption{Diagramme de séquence Ouvrir sessionAR.}
+\end{figure}
+\newpage
+\subparagraph*{Change la langue maternel} \hspace*{1 cm}\newline
+Cette séquence permet au utilisateur de changer la langue d'affichage des libelles des buttons du scènes
+%%hadi pour poser une figue au centre de la page
+\begin{figure}[!htbp]
+  \centering
+    \includegraphics[width=1\textwidth]{SequenceDiagram2.png}
+      \caption{Diagramme de séquence Changer langue Natale.}
+
+\end{figure}
+\newpage
+\subsubsection{Diagramme de classes}
+Le diagramme de classes aide a mieux comprendre l’aperçu général des schémas d’une application.
+\begin{figure}[!htpb]
+  \caption{Diagramme de classes.}
+  \centering
+    \includegraphics[width=1\textwidth]{Main.png}
+\end{figure}
+\newpage
+\section{Outils et environnement de développement}
+On présente dans ce chapitre technologies et les outils utiliser dans notre projet
+\subsection{Unity}
+Unity est un framework 2D/3D du haut niveau qui vous offre un système de conception de scènes de jeu ou d'application pour 2D, 2.5D et 3D en temps réel développer par Unity Technologies crée en juin 2005 a but de démocratiser le développement des jeux, c'est un moteur natif basé sur C++ il nous permet a écrire notre code en C\# ou en JavaScript, il s'exécute sur le framwork Microsoft .NET. Ce moteur  est familiarisé avec la plupart des plates-formes (Android, IOS, Windows, Linux, ChromeOS ...) pour le déploiement des projets créer dedans.
+\subsubsection*{Cycle de vie d'un projet Unity }
+Tout projet Unity hérite de MonoBehaviour qui détermine le cycle de vie d'exécution des évènements du scène.
+\begin{figure}[hp]
+\begin{center}
+\includegraphics[scale=0.4]{life.png}
+\caption{Cycle de vie MonoBehaivour.}
+\includegraphics[scale=0.1]{Unity.png}
+\caption{Logo Unity.}
+\end{center}
+\end{figure}
+\newpage
+\subsection{Visual Studio}
+Visual Studio est un environnement de développement développer par Microsoft adapter avec l'éditeur Unity et il propose des fonctionnalités puissantes aux programmeurs C\#, pour diminuer les erreurs de syntaxe.
+\begin{figure}[hp]
+\begin{center}
+\includegraphics[scale=0.7]{vs.png}
+\caption{Visual Studio Logo.}
+\end{center}
+\end{figure}
+\subsection{DotNet.NET Framework}
+Framwork .NET est un framwork open-source, Génére des applications Web et natives pour plusieurs systèmes d’exploitation et appareils en C\#, F\# ou Visual Basic.
+\begin{figure}[!htp]
+\begin{center}
+\includegraphics[scale=0.3]{netlogo.png}
+\caption{Logo Framwork DotNet.}
+\end{center}
+\end{figure}
+\newpage
+\subsection{Android tools}
+SDK  (ensemble d'outils de développement) d'application Android. Android NDK aussi un kit important qui permet d'utiliser C++ générer par IL2CPP. ces kits sont important pour développer les applications Android dans l'éditeur Unity, il faut les configurer avant la création ou l'exécution du code, pour qu'on puisque configurer le Gradle à-partir du Unity Player et expoter l'application sous forme APK a partir du Unity Builder.
+%% ici pour poser 2 images
+\begin{figure}[hp]
+\includegraphics[width=3.5 in , height=4in]{player.png}
+\includegraphics[width=3.5 in , height=4in]{builder.png}
+\caption{Capture d'écran UnityEditor.}
+\end{figure}
+\newpage
+\subsection{ARCore}
+ARCore est une API open-source de Google spécifier pour les système d'exploitation android et ChromeOS pour créer des expériences de réalité augmentée,permet à votre appareil de détecter son environnement, de comprendre et interagir avec en les marqueurs, les visages et le plan, il support que les versions supérieur de 7 (API 24).
+\subsubsection*{Comment utiliser ARCore sur Unity }
+Après Unity 2020 ARCore est devenu obsolète sur Unity, il faut passer par ARFoundation.
+ARFoundation est un framework multiplate-forme qui vous permet de créer une expérience de réalité augmentée.
+\begin{figure}[hp]
+
+\begin{subfigure}[b]{0.5\textwidth}
+\includegraphics[width=3.5 in , height=3in]{arcore.png}
+\caption{ARCore in Unity before 2020 version.}
+\end{subfigure}
+\begin{subfigure}[b]{0.5\textwidth}
+\includegraphics[width=3.5 in , height=3in]{arf.png}
+\caption{ARCore in Unity after 2020 version.}
+\end{subfigure}
+\end{figure}
+\subsection{Blender}
+C'est un logiciel multi-platform d'infographie 3D open-source permet a modéliser en 3D, texturer, animer et rendre les objets sous différent format pour les utiliser dans des domaines différents (cinéma, l'impression 3D, jeu video, réalité virtuel, réalité augmenté...).
+\begin{figure}[hp]
+\begin{center}
+\includegraphics[height=1in]{bld.png}
+\caption{Blender Logo.}
+\end{center}
+\end{figure}
+\newpage
+\subsection{Adobe Audition}
+C'est un logiciel d'enregistrement et du mastering des pistes audio aide a améliorer la qualité du son en réduire le noise.
+\begin{figure}[hp]
+\begin{center}
+\includegraphics[scale=0.02]{AA.png}
+\caption{Adobe Audition Logo.}
+\end{center}
+\end{figure}
+\subsection{Adobe Photoshop}
+C'est un logiciel d'édition graphique, aide à redimensionnez les images et a crée des nouveaux images.
+\begin{figure}[hp]
+\begin{center}
+\includegraphics[scale=0.11]{PS.png}
+\caption{Adobe Photoshop Logo.}
+\end{center}
+\end{figure}
+\subsection{StarUML}
+StarUML est un logiciel de modélisation UML, il facilite la tâche de dessine des diagrammes on proposons une boite d'outils pour tout les versions UML.
+\begin{figure}[hp]
+\begin{center}
+\includegraphics[scale=0.12]{struml.png}
+\caption{StarUML Logo.}
+\end{center}
+\end{figure}
+\newpage
+\subsection{IL2CPP}
+IL2CPP (Intermediate Language To C++) c'est un script back-office intermédiaire crée par Unity technologies pour convertir les codes MSIL comme C\# en code C++ pour crée des fichiers natifs et rendre sous une forme exécutable sous le plateforme choisi (par exemple en APK à l'aide du NDK).
+\begin{figure}[hp]
+\begin{center}
+\includegraphics[scale=0.5]{il2cpp.png}
+\caption{comment fonction IL2CPP.}
+\end{center}
+\end{figure}
+
+\subsection*{Comment ça marche}
+Dans l'éditeur Unity nous avons configurer le Player et installer et configurer les différents API et Plugins, en suite nous avons crée des scènes et gérer sa logique e l'aide des scripts C\#,
+Après nous avons crée et importer les différents ressources (fichiers: WAV, Obj, PNG, JPG et ANIM) qu'on est besoin dans l'éditeur Unity pour rendre c'est ressources en extension prefab pour qu'il puis les retrouver facilement.\\ Enfin nous allons au Builder pour déployer notre projet et l'utilisateur puisque l'installer et le lancer.
+\begin{figure}[hp]
+\begin{center}
+\includegraphics[height=3 in]{Waree.png}
+\caption{Schéma démonstrative.}
+\end{center}
+\end{figure}
+\newpage
+\section{Présentation de réalisation}
+\subsection*{Introduction}
+
+L'exécution du projet impose des contraintes puisque la réalité augmentée est une nouvelle technologies il demande un environnement d'exécution nouveau et puissant avec la version 7.0 comme version d'Android minimale (API 24), et demande l'installation du services Google Play pour RA.
+
+\subsection*{Installation et résultat}
+Il faut d'abord aller au Play Store et télécharger le service réalité augmentée de Google Play.
+\begin{figure}[!htp]
+\begin{center}
+\includegraphics[scale=0.15]{googleRA.jpg}
+\caption{Capture d'écran de services GooglePlay pour RA dans Play Store.}
+\end{center}
+\end{figure}
+\newline
+
+Après avoir builder par le Gradle, Android App Bundle diffuse le projet builder sous forme APK  
+prêt a installer.
+Pour installer le fichier nous suivons les étapes ci-dessous \\*
+\newpage
+\begin{figure}[!htp]
+\begin{center}
+\includegraphics[scale=0.13]{image/1.jpg}
+\caption{Fichier APK dans un gestionnaire des fichiers}
+\caption*{Aller au dossier ou se trouve fichier votre APK, et cliquer sur l'icône.}
+\end{center}
+\end{figure}
+\begin{figure}[!htp]
+\begin{center}
+\includegraphics[scale=0.14]{image/0.jpg}
+\includegraphics[scale=0.14]{image/00.jpg}
+\caption{Accepter l'installation d'applications inconnues.}
+\caption*{Si on ouvrele ficher apk depuis un gestionnaire de fichiers non crédible par le système Android, il faut donner le privilège pour autoriser l'installation à partir de gestionnaire des fichiers (Dans notre cas le gestionnaire c'est "Mes fichiers".}
+\end{center}
+\end{figure}
+\newpage
+\begin{figure}[!htp]
+\begin{center}
+\includegraphics[scale=0.14]{image/2.jpg}
+\includegraphics[scale=0.14]{image/3.jpg}
+\end{center}
+\caption{Installation du fichier APK.}
+\caption*{Cliquer sur installer, et attendre que l'instillation se termine.}
+\end{figure}
+\begin{figure}[!htp]
+\begin{center}
+\includegraphics[scale=0.14]{image/4.jpg}
+\end{center}
+\caption{icône d'application sur Menu d'application.}
+\caption*{Après l'installation l'icône d'application s'affiche dans le Menu d'application.}
+\end{figure}
+\newpage
+\begin{figure}[!htp]
+\begin{center}
+\includegraphics[scale=0.15]{image/5.jpg}
+\end{center}
+\caption{Menu des langues natales.}
+\caption*{La première scène n'apparait qu'avant le choix du langue natale .}
+\caption*{Après le choix du langue natale (langue connu par l'utilisateur) un fichier JSON crée a l'aide de sérialisation JSON offert par le framwork .NET contient deux différents information langue natale et nombre de lancement d'application.}
+\end{figure}
+\newpage
+\begin{figure}[!htp]
+\begin{center}
+\includegraphics[scale=0.13]{image/6.jpg}
+\end{center}
+\caption{Menu des cours proposer.}
+\caption*{Dans cette scène on désérialise le fichier et on affiche le menu du cours avec la langue natale d'utilisateur.}
+\end{figure}
+\begin{figure}[!htp]
+\begin{center}
+\includegraphics[scale=0.13]{image/7.jpg}
+\includegraphics[scale=0.13]{image/8.jpg}
+\end{center}
+\caption{Événement d'icône Setting.}
+\caption*{l'icône Paramètre affiche une liste des langues qui permet au utilisateur de changer la langue natale si il a commit une erreur.}
+\end{figure}
+\newpage
+\begin{figure}[!htp]
+\begin{center}
+\includegraphics[scale=0.14]{image/9.jpg}
+\end{center}
+\caption{Menu des langues de cours.}
+\caption*{Cette scène contient un libelle d'indice afficher avec la langue natale choisi.}
+\end{figure}
+\begin{figure}[!htp]
+\begin{center}
+\includegraphics[scale=0.14]{image/10.jpg}
+\end{center}
+\caption{SessionAR autoriser l'utilisation de camera.}
+\caption*{Pour ouvrir cette session le système Android demande d'utilisateur d'autoriser l'utilisation de camera par l'application.}
+\end{figure}
+\newpage
+\begin{figure}[!htp]
+\begin{center}
+\includegraphics[scale=0.14]{image/77.jpg}
+\end{center}
+\caption{SessionAR popUp indice.}
+\caption*{Ce popUp montre au utilisateur comment la session marche .}
+\end{figure}
+
+\begin{figure}[!htp]
+\begin{center}
+\includegraphics[scale=0.14]{image/11.jpg}
+\end{center}
+\caption{SessionAR détecte le plan.}
+\caption*{Si la session détecté le plan il affiche des points sur, pour montre au utilisateur que le plan est détecter.}
+\end{figure}
+\newpage
+\begin{figure}[!htp]
+\begin{center}
+\includegraphics[scale=0.14]{image/12.jpg}
+\end{center}
+\caption{SessionAR poser indice.}
+\caption*{Après touche l'écran dans la zone du plan un indice est posé comme référence et un scrolling afficher contient des textures corresponde au cours et langue choisi .}
+\end{figure}
+\begin{figure}[!htp]
+\begin{center}
+\includegraphics[scale=0.13]{image/13.jpg}
+\includegraphics[scale=0.13]{image/14.jpg}
+\includegraphics[scale=0.13]{image/15.jpg}
+\end{center}
+\caption{Événement Cliquer sur objet.}
+\caption*{Après le clique sur un objet de scroll il va apparaitre un nouveau objet dans le plan avec un son qui répète le nom du objet .}
+\end{figure}
+\newpage
+{\Large
+\section{Conclusion générale}}
+\large
+Au cours de ce travail, nous avons tout d'abord mené une recherche sur la technologie de la réalité augmentée et comment on peut l'appliquer dans le domaine d'apprentissage. Nous avons cherché les outils tendances qui vont nous aider a réaliser une application Android qui utilise cette technologie, et nous avons trié les avantages du inconvénient a but d'améliorer l'existant.\\
+Notre problématique consiste à développer une application d'apprentissage basé sur la réalité augmentée.\\
+Pour attendre ces objectifs nous avons choisi UML pour modéliser notre application, et pour la réalisation nous avons utiliser l'éditeur 3D Unity.\\
+L'application que nous avons réalisé, permettra de :
+\vspace*{0.1 in}
+\begin{enumerate}
+\item Apprendre 4 différents langues \\ ARABE / TAMAZIGHT / FRANÇAIS / ANGLAIS.
+\vspace*{0.1 in}
+\item Visualiser des objets 3D statique et animé dans le monde réel.
+\vspace*{0.1 in}
+\item Entendre la prononciation exact des objets visualiser avec les 4 langues.
+\vspace*{0.1 in}
+\item Rendre l'apprentissage plus amusant et facile.
+\vspace*{0.1 in}
+\item Les session peut être ouvert sans accès a l'Internet.
+\end{enumerate} 
+
+\newpage
+{\Large
+\section{Référence}}
+
+\subsection{Bibliographie}
+\begin{enumerate}[label= (\arabic*)  ]
+\item  Alan Thorn. Unity 5.x By Example. March 2016
+\end{enumerate}
+\subsection{Webographie}
+\begin{enumerate}[label=\arabic*)]
+\item Lear Unity un plateforme crée par Unity technologies aide propose des formations gratuits pour les développeurs Unity \\ {\color{blue}\href{https://learn.unity.com/}{https://learn.unity.com/}}
+\item Stack Overflow est un site Web de questions et réponses pour les programmeurs professionnels et passionnés \\ {\color{blue}\href{https://stackoverflow.com/}{https://stackoverflow.com/}}
+\item Developpez est forum sp {\color{blue}\href{https://www.developpez.com/}{https://www.developpez.com/}}
+\item OpenClassrooms est un site web de formation en ligne \\ {\color{blue}\href{https://openclassrooms.com/}{https://openclassrooms.com/}}
+\item forum Unity est un forum pour la communauté Unity pour poser des questions  sur des problèmes et chercher des solutions des anciens problèmes \\ {\color{blue}\href{https://forum.unity.com/}{https://forum.unity.com/}}
+\item Developers google un plateforme google aide a configurer et facilite la gestion les indépendances \\ {\color{blue}\href{https://developers.google.com/ar}{https://developers.google.com/ar}}\\
+\end{enumerate}
+\end{document}
