@@ -421,7 +421,7 @@ Après nous avons crée et importer les différents ressources (fichiers: WAV, O
 \end{center}
 \end{figure}
 \newpage
-\section{Résultat de réalisation}
+\section{Présentation de réalisation}
 \subsection*{Introduction}
 
 L'exécution du projet impose des contraintes puisque la réalité augmentée est une nouvelle technologies il demande un environnement d'exécution nouveau et puissant avec la version 7.0 comme version d'Android minimale (API 24), et demande l'installation du services Google Play pour RA.
@@ -436,7 +436,7 @@ Il faut d'abord aller au Play Store et télécharger le service réalité augmen
 \end{figure}
 \newline
 
-Après avoir Builder par le Gradle, Android App Bundle diffuse le projet builder sous forme APK  
+Après avoir builder par le Gradle, Android App Bundle diffuse le projet builder sous forme APK  
 prêt a installer.
 Pour installer le fichier nous suivons les étapes ci-dessous \\*
 \newpage
@@ -452,7 +452,7 @@ Pour installer le fichier nous suivons les étapes ci-dessous \\*
 \includegraphics[scale=0.14]{image/0.jpg}
 \includegraphics[scale=0.14]{image/00.jpg}
 \caption{Accepter l'installation d'applications inconnues.}
-\caption*{Si on ouvre le ficher APK depuis un gestionnaire de fichiers non crédible par le système Android, il faut donner le privilège pour autoriser l'installation à partir de gestionnaire des fichiers (Dans notre cas le gestionnaire c'est "Mes fichiers".}
+\caption*{Si on ouvrele ficher apk depuis un gestionnaire de fichiers non crédible par le système Android, il faut donner le privilège pour autoriser l'installation à partir de gestionnaire des fichiers (Dans notre cas le gestionnaire c'est "Mes fichiers".}
 \end{center}
 \end{figure}
 \newpage
@@ -477,63 +477,64 @@ Pour installer le fichier nous suivons les étapes ci-dessous \\*
 \includegraphics[scale=0.15]{image/5.jpg}
 \end{center}
 \caption{Menu des langues natales.}
-\caption*{La première scène n'apparait qu'avant le choix du langue natale.}
+\caption*{La première scène n'apparait qu'avant le choix du langue natale .}
+\caption*{Après le choix du langue natale (langue connu par l'utilisateur) un fichier JSON crée a l'aide de sérialisation JSON offert par le framwork .NET contient deux différents information langue natale et nombre de lancement d'application.}
 \end{figure}
-Après le choix du langue natale (langue connu par l'utilisateur) un fichier JSON crée a l'aide de sérialisation JSON offert par le Framwork .NET contient deux différents information langue natale et nombre de lancement d'application.
 \newpage
 \begin{figure}[!htp]
 \begin{center}
 \includegraphics[scale=0.13]{image/6.jpg}
 \end{center}
 \caption{Menu des cours proposer.}
+\caption*{Dans cette scène on désérialise le fichier et on affiche le menu du cours avec la langue natale d'utilisateur.}
 \end{figure}
-Dans cette scène on désérialise le fichier et on affiche le menu du cours avec la langue natale d'utilisateur.
 \begin{figure}[!htp]
 \begin{center}
 \includegraphics[scale=0.13]{image/7.jpg}
 \includegraphics[scale=0.13]{image/8.jpg}
 \end{center}
 \caption{Événement d'icône Setting.}
-\end{figure}\\
-L'icône Paramètre affiche une liste des langues qui permet au utilisateur de changer la langue natale si il a commit une erreur.
+\caption*{l'icône Paramètre affiche une liste des langues qui permet au utilisateur de changer la langue natale si il a commit une erreur.}
+\end{figure}
 \newpage
 \begin{figure}[!htp]
 \begin{center}
 \includegraphics[scale=0.14]{image/9.jpg}
 \end{center}
 \caption{Menu des langues de cours.}
+\caption*{Cette scène contient un libelle d'indice afficher avec la langue natale choisi.}
 \end{figure}
-Cette scène contient un libelle d'indice afficher avec la langue natale choisi.
 \begin{figure}[!htp]
 \begin{center}
 \includegraphics[scale=0.14]{image/10.jpg}
 \end{center}
 \caption{SessionAR autoriser l'utilisation de camera.}
-\end{figure}\\
-Pour ouvrir cette session le système Android demande d'utilisateur d'autoriser l'utilisation de camera par l'application.
+\caption*{Pour ouvrir cette session le système Android demande d'utilisateur d'autoriser l'utilisation de camera par l'application.}
+\end{figure}
 \newpage
 \begin{figure}[!htp]
 \begin{center}
 \includegraphics[scale=0.14]{image/77.jpg}
 \end{center}
 \caption{SessionAR popUp indice.}
+\caption*{Ce popUp montre au utilisateur comment la session marche .}
 \end{figure}
-Ce popUp montre au utilisateur comment la session marche.
+
 \begin{figure}[!htp]
 \begin{center}
 \includegraphics[scale=0.14]{image/11.jpg}
 \end{center}
 \caption{SessionAR détecte le plan.}
-\end{figure}\\
-Si la session détecté le plan il affiche des points sur, pour montre au utilisateur que le plan est détecter.
+\caption*{Si la session détecté le plan il affiche des points sur, pour montre au utilisateur que le plan est détecter.}
+\end{figure}
 \newpage
 \begin{figure}[!htp]
 \begin{center}
-\includegraphics[scale=0.13]{image/12.jpg}
+\includegraphics[scale=0.14]{image/12.jpg}
 \end{center}
 \caption{SessionAR poser indice.}
+\caption*{Après touche l'écran dans la zone du plan un indice est posé comme référence et un scrolling afficher contient des textures corresponde au cours et langue choisi .}
 \end{figure}
-Après touche l'écran dans la zone du plan un indice est posé comme référence et un scrolling afficher contient des textures corresponde au cours et langue choisi.
 \begin{figure}[!htp]
 \begin{center}
 \includegraphics[scale=0.13]{image/13.jpg}
@@ -541,8 +542,8 @@ Après touche l'écran dans la zone du plan un indice est posé comme référenc
 \includegraphics[scale=0.13]{image/15.jpg}
 \end{center}
 \caption{Événement Cliquer sur objet.}
-\end{figure}\\
-Après le clique sur un objet de scroll il va apparaitre un nouveau objet dans le plan avec un son qui répète le nom du objet.
+\caption*{Après le clique sur un objet de scroll il va apparaitre un nouveau objet dans le plan avec un son qui répète le nom du objet .}
+\end{figure}
 \newpage
 {\Large
 \section{Conclusion générale}}
