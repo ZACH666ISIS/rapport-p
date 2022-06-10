@@ -1,0 +1,53 @@
+Introductuion:
+Problématique
+l'apprentissage des enfants est devenu très dur et précisément pour les enfants entre 3ans et 5ans. 
+Des nombreuses familles trouvent énormement des difficultés pour rendre leurs enfants installés devant un livre même pendant quelques minutes,  
+parce que la lecture et l'apprentissage depuis les manuels devient une chose ennuyante surtout pour les enfants de cette génération qui sont habitués d'utiliser des appareils de la nouvelle technologie comme des téléphones portables, tablettes..
+la majorité de ces appareils sont employés d'une façon négative,
+la solution proposée est la rationalisation d'utilisation de ces appareils 
+Objectif:
+L'objectif de notre mémoire est , 
+une application 
+Donc on a décidé de développer notre propre application avec Unity avec l'API de Google ArCore.
+ Notre objectif est de développer une application qui a des fonctionalités limitées dédiée pour l'apprentissage des enfants qui le rend à la fois  utile et amusant
+
+Unity Editor:
+Editeur Unity est un plate-forme de développement 3D en temps réel par Unity Technologies crée en juin 2005 a but de démocratiser le developement des jeux, 
+en 2010 Unity Technologies a de mettre son moteur de jeu à d'autres industries utilisant la plate-forme 3D,c'est un logiciel payant mais il offre une licence gratuite pour l'utilisation commerciale moins de 100K$, 
+le principal langage de programmation utilisé par ce moteur c'est C#, ce moteur  est familiarisé avec la plupart des plates-formes (Androis, IOS, Windows, Linux, ChromeOS ...) pour le déploiement des projets crée dedans .
+
+AR Foundation:
+XR ArFoundation est un package (plugin Unity), qui contient les deux api open source ARcore ddeveloppée par Google et ARKit developpée par Apple.
+SDK ARCore est obsolète dans les dernieres version de Unity, il est obligatoire de passer par AR Foundation.
+Cette API ne marche qu'avec les versions sortie ultérieurement après 7.0 où le level d'api est supérieur de 24.
+
+
+ 
+Android
+Android est un système d'exploitation open-source ça permiere version stable est lancé le 11 novembre 2007 pour smartphones, les téléviseurs et les tablettes.
+table des versions :
+androidvers.jpg
+
+pour développée une application Android dans le moteur unity il est obligatoire d'avoir  Android Studio Development Kit (SDK), Java Devlopement Kit (JDK), Android Native Development Kit (NDK).
+
+
+
+
+
+
+
+Les Ressources:
+Importation : Le site free3D.com offre des objets 3D sous forme OBJ pour une utilisation libre, pour les textures nous avons pris de pexels.com qui offre aussi des textures sous forme PNG ou JPG gratuit, pour les audios on'a travailler
+avec un site open-source ttsmp3.com qui convet un text a un fichier MP3.
+Création : Nous avons travailler avec l'éditeur graphique 3D Blender c'est un logiciel open-source qui facilitent la création des objet 3D, la modification des textures, icons et des fichier PNG et JPG nous avons travailler avec Photoshop CC 2019, L'enregistrement
+et l'edition des fichier MP3 on a utiliser Adobe Audition CC 2019.
+
+
+
+Création d'un Projet Unity:
+ Configuration du Player:
+ Attachement:
+
+IL2CPP est un convertisseur Microsoft Intermediate Language ( MSIL ) qui convert les scripts C\# en C++ 
+APK fichier compresser generer 
+Gradle

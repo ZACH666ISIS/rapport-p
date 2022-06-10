@@ -1,0 +1,34 @@
+\babel@toc {french}{}\relax 
+\contentsline {section}{\numberline {1}Abréviations}{2}{section.1}%
+\contentsline {section}{\numberline {2}Dédicaces}{3}{section.2}%
+\contentsline {section}{\numberline {3}Remerciements}{4}{section.3}%
+\contentsline {section}{\numberline {4}Introduction générale}{8}{section.4}%
+\contentsline {section}{\numberline {5}Analyse et conception}{9}{section.5}%
+\contentsline {subsection}{\numberline {1}L’analyse de l’existant}{9}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {1.1}Analyse de l'application MondlyAR pour Android}{9}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {1.2}Analyse fonctionnelle}{9}{subsubsection.5.1.2}%
+\contentsline {subsection}{\numberline {2}Conclusion}{10}{subsection.5.2}%
+\contentsline {subsection}{\numberline {3}Conception et modélisation d'application}{11}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {3.1}Conception graphique}{11}{subsubsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {3.2}Modelisation graphique}{12}{subsubsection.5.3.2}%
+\contentsline {subsubsection}{\numberline {3.3}Les diagrammes}{12}{subsubsection.5.3.3}%
+\contentsline {subsubsection}{\numberline {3.4}Langage UML}{12}{subsubsection.5.3.4}%
+\contentsline {subsubsection}{\numberline {3.5}Diagramme de cas d'utilisation}{12}{subsubsection.5.3.5}%
+\contentsline {subsubsection}{\numberline {3.6}Diagramme de séquence}{13}{subsubsection.5.3.6}%
+\contentsline {subsubsection}{\numberline {3.7}Diagramme de classes}{16}{subsubsection.5.3.7}%
+\contentsline {section}{\numberline {6}Outils et environnement de développement}{17}{section.6}%
+\contentsline {subsection}{\numberline {1}Unity}{17}{subsection.6.1}%
+\contentsline {subsection}{\numberline {2}Visual Studio}{18}{subsection.6.2}%
+\contentsline {subsection}{\numberline {3}DotNet.NET Framework}{18}{subsection.6.3}%
+\contentsline {subsection}{\numberline {4}Android tools}{19}{subsection.6.4}%
+\contentsline {subsection}{\numberline {5}ARCore}{20}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6}Blender}{20}{subsection.6.6}%
+\contentsline {subsection}{\numberline {7}Adobe Audition}{21}{subsection.6.7}%
+\contentsline {subsection}{\numberline {8}Adobe Photoshop}{21}{subsection.6.8}%
+\contentsline {subsection}{\numberline {9}StarUML}{21}{subsection.6.9}%
+\contentsline {subsection}{\numberline {10}IL2CPP}{22}{subsection.6.10}%
+\contentsline {section}{\numberline {7}Présentation de réalisation}{23}{section.7}%
+\contentsline {section}{\numberline {8}Conclusion générale}{31}{section.8}%
+\contentsline {section}{\numberline {9}Référence}{32}{section.9}%
+\contentsline {subsection}{\numberline {1}Bibliographie}{32}{subsection.9.1}%
+\contentsline {subsection}{\numberline {2}Webographie}{32}{subsection.9.2}%
