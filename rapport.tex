@@ -27,7 +27,7 @@
 
 \fancyhead[L]{\leftmark} 
 \fancyhead[R]{AU: 2021/2022}%%%%%%%%%CHANGE 'L' TO 'R' HERE %%%%%%
-\fancyfoot[R]{\thepage / 32}
+\fancyfoot[R]{\thepage / \pageref{lastpage}}
 \fancyfoot[L]{\scriptsize{Z.ZIANE, I.QAFFOU}}
 \fancypagestyle{plain}{%
     \fancyhf{}%
@@ -62,60 +62,49 @@
 
 \setlength{\marginparwidth}{0pt}
 \setlength{\marginparsep}{0pt}
-\begin{minipage}{0.48\textwidth}
-\begin{flushleft}
-  \includegraphics[width = 90pt,height=75pt]{usmslogo.png}
-\end{flushleft} 
-\end{minipage}
-\begin{minipage}{0.48\textwidth}
-  \begin{flushright}  
-	\includegraphics[width = 50pt,height=60pt]{fstlogo.png}  
-  \end{flushright}
+\begin{minipage}{1\textwidth}
+\begin{center}
+  \includegraphics[height=75pt]{pg.png} 
+\end{center}
 \end{minipage} 
-    \begin{center}
-    \noindent\rule{7in}{0.5pt}
-    \end{center}
-\begin{minipage}{0.48\textwidth}
-\begin{flushleft}
-  Année Universitaire 2021-2022
-\end{flushleft} 
-\end{minipage}
-\begin{minipage}{0.48\textwidth}
+\vspace*{0.3 in}
   \begin{flushright}  
 	N°: ...../2022  
   \end{flushright}
-\end{minipage} 
-\vspace*{0.5 in}
+\vspace*{0.4 in}
 \begin{center}
-\Large{Université Sultan Moulay Slimane} \nolinebreak\hspace{\fill}\linebreak
-\Large{ Faculté des Sciences et Techniques Béni Mellal}
-\end{center}
-\begin{center}
-\Large{\textbf{Licence Science et Techniques : Informatique}} \vspace*{0.3 in}\nolinebreak\hspace{\fill}\linebreak
-\Large{\textbf{Sujet :}}
-\vspace*{0.2 in}\nolinebreak\hspace{\fill}\linebreak
-\Large{ \color{blue} \textbf{Application d'apprentissage basée sur la réalité augmentée}}
- \noindent\rule{6.6in}{0.4pt}
- \nolinebreak\hspace{\fill}\linebreak
- \normalsize{ Présenté et soutenu par:} \vspace*{0.1 in}
-\nolinebreak\hspace{\fill}\linebreak
- \textit{\textbf{QAFFOU Ilyas}} et \textit{\textbf{ZIANE Zakaria}}
- \vspace*{0.1 in}
-\nolinebreak\hspace{\fill}\linebreak
- \large{ \textbf{Le 11 Juin 2022, devant le jury ci-dessous. }}
-\end{center}
+\large{\textbf{Projet de Fin d'Etudes}} \nolinebreak\hspace{\fill}\linebreak
+\large{ Présenté en vue de l'obtention de la }\\
+\large{Licence Science et Techniques en Informatique}
+\vspace*{0.3 in}\nolinebreak\hspace{\fill}\linebreak
+
+\Large{  \textbf{Application d'apprentissage basée sur la réalité augmentée}}
+\vspace*{0.5 in}\nolinebreak\hspace{\fill}\linebreak
+\begin{minipage}{0.6\textwidth}
 \begin{flushleft}
-\normalsize{\textbf{Jury :}} \vspace*{0.1 in}\nolinebreak\hspace{\fill}\linebreak
-\textit{Encadrant :} \vspace*{0.1 in}\nolinebreak\hspace{\fill}\linebreak
-\hspace*{0.5cm} \textbf{Mme. IDRISSI Najlae} : Professeur à la Faculté des Sciences et Techniques Béni-Mellal
- \vspace*{0.3 in}\nolinebreak\hspace{\fill}\linebreak
-\textit{Examinateurs :} \vspace*{0.3 in}\nolinebreak\hspace{\fill}\linebreak
+\large{\textbf{Réalisé par :}}\\
+\normalsize{\hspace*{0.4 in} \textit{\textbf{QAFFOU Ilyas}} \\ \hspace*{0.4 in}
+\textit{\textbf{ZIANE Zakaria}}}
+\end{flushleft}
+\end{minipage} 
+\begin{minipage}{0.38\textwidth}
+\begin{flushleft}
+\large{\textbf{Encadré par :}} \\
+\normalsize {\hspace*{0.5 in}\textbf{Mme} \textit{\textbf{IDRISSI Najlae}} }
+\end{flushleft}
+\end{minipage} 
+ \vspace*{0.5 in}
+\nolinebreak\hspace{\fill}\linebreak
+ \large{ \textbf{Soutenu le 16 Juin 2022, devant les membres de jury : }}
+\end{center}
+ \vspace*{0.5 in}
+\begin{flushleft}
 \hspace*{2cm} \textbf{Mr. ..........................................}   : Professeur à la Faculté des Sciences et Techniques
 \vspace*{0.2 in}\nolinebreak\hspace{\fill}\linebreak
 \hspace*{2cm} \textbf{Mr. ..........................................}   : Professeur à la Faculté des Sciences et Techniques
 \vspace*{0.2 in}\nolinebreak\hspace{\fill}\linebreak
 \hspace*{2cm} \textbf{Mr. ..........................................}   : Professeur à la Faculté des Sciences et Techniques
-\vspace*{1.374 in}\nolinebreak\hspace{\fill}\linebreak
+\vspace*{2 in}\nolinebreak\hspace{\fill}\linebreak
 \end{flushleft}
 %% flushleft aligner 3la lesser , vspace espace verticalement h horizontal
 \begin{center}
@@ -123,14 +112,6 @@
    \small{ Campus  Mghilla, BP 523, 23000 Béni Mellal-Maroc, Tél: + 2125234851(12/22/82), Fax: +212523485201 \nolinebreak\hspace{\fill}\linebreak
     \textbf{Email} : fstbm@usms.ma , \textbf{Siteweb} : {\color{blue}\href{http://www.fstbm.ac.ma}{http://www.fstbm.ac.ma}} }
  \end{center}
-
-
-
-
-
-
-
-
 \newpage
 \begin{center}
 \section{Abréviations}
@@ -142,6 +123,7 @@
 \item API :  Interface de programmation applicative $(Application \; programming \; interface)$
 \item Mo : Mega octet
 \item MSIL : Microsoft Intermediate Language
+\item AR-HUD : Augmented Reality Head-up displays $Realité \; virtuel \; vision \; tête-haute$
 \end{enumerate}
 \end{center}
 \newpage
@@ -186,12 +168,25 @@ La réalisation de ce projets demande des pré-requis sur la modélisation orien
 
 Notre rapport est divisé en 3 parties : \newline
 \begin{enumerate}[label=$\blacktriangleright$]
-\item analyse des besoins et conception.
+\item Analyse des besoins et conception.
 \item Outils, Technologies et environnement de développement.
 \item Résultat de réalisation.
 \end{enumerate}
+\newpage
+\section*{La technologies de réalité augmentée}
+La réalité augmentée (Augmented reality) est une technologie qui permet d'intégrer des éléments virtuels en 3D (en temps réel) au sein d'un environnement réel. Le principe est de combiner le virtuel et le réel et donner l'illusion d'une intégration parfaite à l'utilisateur.
+La réalité augmentée a connu en 2016 un bouleversement majeur. En effet, suite à l’énorme succès du jeu pour smartphone Pokémon Go ! (application la plus téléchargée de tous les temps), la notoriété de cette technologie s’est drastiquement amplifiée donnant l’opportunité de se faire connaître au plus grand nombre. La réalité augmentée est maintenant facilement comprise par le grand public.\\
+On peut également citer Snapchat, qui depuis maintenant quelques années, a intégré des filtres (lenses) en réalité augmentée. Sans réellement le savoir, le grand public utilise déjà cette technologie \\
+Cette technologie peut être appliquer dans des différents domaines comme par exemple
+\begin{enumerate}
+\item L'industrie : La visualisation 3D des machines industriel et du fonctionnement dans un environnement réel permettent de connaître simplement n'importe quel objet ce qui diminue le temps de diagnostic et réduit le temps du maintenance.
+\item La conduite : La plupart cockpits des nouveaux voitures, avions...  dispose d'un système AR-HUD de vision tête-haute qui affiche informations à travers un petit écran transparent (vitesse, latitude, température, panneaux de signalisation ...).
+\item  L'architecture interne : Avec la réalité augmentée nous avons dépasser la cohérence des nouveaux mobilier car on peut déposer n'importe quel mobilier (objet 3D virtuel) dans l'espace réel et visualisé la cohérence avant de l'acheter.
+\end{enumerate}
+\textbf{La révolution ARCORE/ARKIT} \\
+Cette avancée technologique est issue de deux géants américains que sont Apple et Google, qui ont développé de nouveaux systèmes de réalité augmentée embarqués directement dans le système d'exploitation des  smart-phones et tablettes.
+Nommés respectivement ARkit pour Apple et ARcore pour Google, ces systèmes détectent l'espace, la position de l'utilisateur et la lumière ambiante. Cela permet d'afficher et de fixer l'élément en 3D sur les surfaces scannées. Avec la captation de position, il est désormais possible de simuler une pièce virtuelle complète et de se déplacer à l'intérieur à travers son smart-phone ou sa tablette.\\
 
-    
 \newpage
 \begin{center}
 \section{Analyse et conception}
@@ -263,6 +258,7 @@ différents éléments représentables sont :
 \item Processus.
 \item Composants logiciels.
 \end{enumerate}
+\newpage
 \subsubsection{Diagramme de cas d'utilisation}
 Les cas d'utilisation représentent les grands fonctionnalité de notre système :
 Les cas d'utilisation permettent :
@@ -279,7 +275,7 @@ Donc le diagramme suivant donne une vision générale sur le comportement des ac
 notre système et comment ils réagissent :
 \begin{figure}[!htbp]
 \begin{center}
-\includegraphics[width=4.45 in]{uc.png}
+\includegraphics[width=7.5 in]{uc.png}
 \caption{Diagramme de cas d'utilisation.}
 \end{center}
 \end{figure}
@@ -306,9 +302,10 @@ Cette séquence permet au utilisateur de changer la langue d'affichage des libel
 \subsubsection{Diagramme de classes}
 Le diagramme de classes aide a mieux comprendre l’aperçu général des schémas d’une application.
 \begin{figure}[!htpb]
-  \caption{Diagramme de classes.}
   \centering
-    \includegraphics[width=1\textwidth]{Main.png}
+    \includegraphics[height = 8 in , width=1\textwidth]{Main.png}
+      \caption{Diagramme de classes.}
+
 \end{figure}
 \newpage
 \section{Outils et environnement de développement}
@@ -351,9 +348,16 @@ SDK  (ensemble d'outils de développement) d'application Android. Android NDK au
 \includegraphics[width=3.5 in , height=4in]{builder.png}
 \caption{Capture d'écran UnityEditor.}
 \end{figure}
-\newpage
+
 \subsection{ARCore}
 ARCore est une API open-source de Google spécifier pour les système d'exploitation android et ChromeOS pour créer des expériences de réalité augmentée,permet à votre appareil de détecter son environnement, de comprendre et interagir avec en les marqueurs, les visages et le plan, il support que les versions supérieur de 7 (API 24).
+\newpage
+\begin{figure}[hp]
+\begin{center}
+\includegraphics[height=1.5in]{Acr.png}
+\caption{ARCore wallpaper.}
+\end{center}
+\end{figure}
 \subsubsection*{Comment utiliser ARCore sur Unity }
 Après Unity 2020 ARCore est devenu obsolète sur Unity, il faut passer par ARFoundation.
 ARFoundation est un framework multiplate-forme qui vous permet de créer une expérience de réalité augmentée.
@@ -411,7 +415,7 @@ IL2CPP (Intermediate Language To C++) c'est un script back-office intermédiaire
 \end{center}
 \end{figure}
 
-\subsection*{Comment ça marche}
+\subsection*{Méthode de travail}
 Dans l'éditeur Unity nous avons configurer le Player et installer et configurer les différents API et Plugins, en suite nous avons crée des scènes et gérer sa logique e l'aide des scripts C\#,
 Après nous avons crée et importer les différents ressources (fichiers: WAV, Obj, PNG, JPG et ANIM) qu'on est besoin dans l'éditeur Unity pour rendre c'est ressources en extension prefab pour qu'il puis les retrouver facilement.\\ Enfin nous allons au Builder pour déployer notre projet et l'utilisateur puisque l'installer et le lancer.
 \begin{figure}[hp]
@@ -421,11 +425,33 @@ Après nous avons crée et importer les différents ressources (fichiers: WAV, O
 \end{center}
 \end{figure}
 \newpage
-\section{Présentation de réalisation}
+\section{Résultat du réalisation}
 \subsection*{Introduction}
 
 L'exécution du projet impose des contraintes puisque la réalité augmentée est une nouvelle technologies il demande un environnement d'exécution nouveau et puissant avec la version 7.0 comme version d'Android minimale (API 24), et demande l'installation du services Google Play pour RA.
+\subsection*{Mode d'emploi}
+\vspace*{0.1 in}\hspace{\fill}\linebreak
+\large{\textbf{La configuration requise pour utiliser ARLearn:}} \\
+\begin{enumerate}
+\item Système d'exploitation: Android version 7.0 ou superieur (API 24)
+\item Mémoire vive: 2GB ou plus
+\item Storage: 200 Mega bits Libre
+\item Interface: Camera
+\end{enumerate}
+\large{\textbf{Pour une expérience d'utilisation :}}\\
+Il faut avoir la dernière mise a jour du service Google ARCore.
+Un espace lumineux pour qu'il puisque facilite la tâche de connaissance du plan.
+Les dimensions des objets sont réel, pour une bonne visualisation des objets  il faut positionner le téléphone loin du plan d'une distance supérieur a 1 mètre et demi de préférence.
+le plan ne doit pas avoir un reflet de lumière, car ce dernier perturbe l'apprentissage d'appareil (l'apprentissage d'environnement plan, surface, marqueurs ...).\\
+\large{\textbf{Sécurité d'utilisation :}}\\
+Il est préférable que l'endroit soit plat et qu'il n'y ait pas d'objets solides pour éviter de se cogner ou de tomber, car l'utilisateur peut confondre entre le monde réel le monde virtuelle.
+\\
 
+Pour notre application nous avons utiliser la classe Anchor de ARCore il ancre les objets et reste dans leur place et pour que l'appareil puisque faire ça il doit d'abord connaitre les places pour notre cas nous avons utiliser le plan pour placer les objets, ils ne peuvent pas être placer n'importe où dans l'environnement c'est pour ça on 'a utiliser l'ancre trackable de ARcore il affiche des points sur la surface détecter pour informer
+l'utilisateur qu'il a détecter le plan, puis l'utilisateur peut faire un hits pour positionner l'objet.
+Problème possible: L'utilisateur tape sur l'écran pour poser l'objet et l'appareil n'affiche rien 
+Soit l'appareil a superpose un plan sur l'autre ou l'utilisateur n'a pas taper sur (une positionne valide sur les points afficher par l'ancre trackable).
+\newpage
 \subsection*{Installation et résultat}
 Il faut d'abord aller au Play Store et télécharger le service réalité augmentée de Google Play.
 \begin{figure}[!htp]
@@ -452,9 +478,9 @@ Pour installer le fichier nous suivons les étapes ci-dessous \\*
 \includegraphics[scale=0.14]{image/0.jpg}
 \includegraphics[scale=0.14]{image/00.jpg}
 \caption{Accepter l'installation d'applications inconnues.}
-\caption*{Si on ouvrele ficher apk depuis un gestionnaire de fichiers non crédible par le système Android, il faut donner le privilège pour autoriser l'installation à partir de gestionnaire des fichiers (Dans notre cas le gestionnaire c'est "Mes fichiers".}
 \end{center}
 \end{figure}
+Si on ouvre le ficher apk depuis un gestionnaire de fichiers non crédible par le système Android, il faut donner le privilège pour autoriser l'installation à partir de gestionnaire des fichiers (Dans notre cas le gestionnaire c'est "Mes fichiers".
 \newpage
 \begin{figure}[!htp]
 \begin{center}
@@ -469,8 +495,9 @@ Pour installer le fichier nous suivons les étapes ci-dessous \\*
 \includegraphics[scale=0.14]{image/4.jpg}
 \end{center}
 \caption{icône d'application sur Menu d'application.}
-\caption*{Après l'installation l'icône d'application s'affiche dans le Menu d'application.}
+
 \end{figure}
+Après l'installation l'icône d'application s'affiche dans le Menu d'application.
 \newpage
 \begin{figure}[!htp]
 \begin{center}
@@ -478,63 +505,62 @@ Pour installer le fichier nous suivons les étapes ci-dessous \\*
 \end{center}
 \caption{Menu des langues natales.}
 \caption*{La première scène n'apparait qu'avant le choix du langue natale .}
-\caption*{Après le choix du langue natale (langue connu par l'utilisateur) un fichier JSON crée a l'aide de sérialisation JSON offert par le framwork .NET contient deux différents information langue natale et nombre de lancement d'application.}
 \end{figure}
+Après le choix du langue natale (langue connu par l'utilisateur) un fichier JSON crée a l'aide de sérialisation JSON offert par le Framwork .NET contient deux différents information langue natale et nombre de lancement d'application.
 \newpage
 \begin{figure}[!htp]
 \begin{center}
 \includegraphics[scale=0.13]{image/6.jpg}
 \end{center}
 \caption{Menu des cours proposer.}
-\caption*{Dans cette scène on désérialise le fichier et on affiche le menu du cours avec la langue natale d'utilisateur.}
 \end{figure}
+Dans cette scène on désérialise le fichier et on affiche le menu du cours avec la langue natale d'utilisateur.
 \begin{figure}[!htp]
 \begin{center}
 \includegraphics[scale=0.13]{image/7.jpg}
 \includegraphics[scale=0.13]{image/8.jpg}
 \end{center}
 \caption{Événement d'icône Setting.}
-\caption*{l'icône Paramètre affiche une liste des langues qui permet au utilisateur de changer la langue natale si il a commit une erreur.}
-\end{figure}
+\end{figure}\\
+L'icône Paramètre affiche une liste des langues qui permet au utilisateur de changer la langue natale si il a commit une erreur.
 \newpage
 \begin{figure}[!htp]
 \begin{center}
 \includegraphics[scale=0.14]{image/9.jpg}
 \end{center}
 \caption{Menu des langues de cours.}
-\caption*{Cette scène contient un libelle d'indice afficher avec la langue natale choisi.}
 \end{figure}
+Cette scène contient un libelle d'indice afficher avec la langue natale choisi.
 \begin{figure}[!htp]
 \begin{center}
 \includegraphics[scale=0.14]{image/10.jpg}
 \end{center}
 \caption{SessionAR autoriser l'utilisation de camera.}
-\caption*{Pour ouvrir cette session le système Android demande d'utilisateur d'autoriser l'utilisation de camera par l'application.}
 \end{figure}
+Pour ouvrir cette session le système Android demande d'utilisateur d'autoriser l'utilisation de camera par l'application.
 \newpage
 \begin{figure}[!htp]
 \begin{center}
 \includegraphics[scale=0.14]{image/77.jpg}
 \end{center}
 \caption{SessionAR popUp indice.}
-\caption*{Ce popUp montre au utilisateur comment la session marche .}
 \end{figure}
-
+Ce popUp montre au utilisateur comment la session marche.
 \begin{figure}[!htp]
 \begin{center}
 \includegraphics[scale=0.14]{image/11.jpg}
 \end{center}
 \caption{SessionAR détecte le plan.}
-\caption*{Si la session détecté le plan il affiche des points sur, pour montre au utilisateur que le plan est détecter.}
 \end{figure}
+Si la session détecté le plan il affiche des points sur, pour montre au utilisateur que le plan est détecter.
 \newpage
 \begin{figure}[!htp]
 \begin{center}
-\includegraphics[scale=0.14]{image/12.jpg}
+\includegraphics[scale=0.13]{image/12.jpg}
 \end{center}
 \caption{SessionAR poser indice.}
-\caption*{Après touche l'écran dans la zone du plan un indice est posé comme référence et un scrolling afficher contient des textures corresponde au cours et langue choisi .}
 \end{figure}
+Après touche l'écran dans la zone du plan un indice est posé comme référence et un scrolling afficher contient des textures corresponde au cours et langue choisi.
 \begin{figure}[!htp]
 \begin{center}
 \includegraphics[scale=0.13]{image/13.jpg}
@@ -542,8 +568,8 @@ Pour installer le fichier nous suivons les étapes ci-dessous \\*
 \includegraphics[scale=0.13]{image/15.jpg}
 \end{center}
 \caption{Événement Cliquer sur objet.}
-\caption*{Après le clique sur un objet de scroll il va apparaitre un nouveau objet dans le plan avec un son qui répète le nom du objet .}
-\end{figure}
+\end{figure}\\
+Après le clique sur un objet de Scroll il va apparaitre un nouveau objet dans le plan avec un son qui répète le nom du objet.
 \newpage
 {\Large
 \section{Conclusion générale}}

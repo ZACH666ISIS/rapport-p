@@ -1,34 +1,35 @@
 \babel@toc {french}{}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Captures d'écran d'application MondlyAR sur PlayStore et sur l'appareil.\relax }}{10}{figure.caption.4}%
-\contentsline {figure}{\numberline {2}{\ignorespaces navigation en mode linéaire.\relax }}{11}{figure.caption.6}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Prototypage base fidélité (éditable).\relax }}{11}{figure.caption.8}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Logo UML\relax }}{12}{figure.caption.9}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Diagramme de cas d'utilisation.\relax }}{13}{figure.caption.10}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Diagramme de séquence Ouvrir sessionAR.\relax }}{14}{figure.caption.12}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Diagramme de séquence Changer langue Natale.\relax }}{15}{figure.caption.14}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Diagramme de classes.\relax }}{16}{figure.caption.15}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Cycle de vie MonoBehaivour.\relax }}{17}{figure.caption.17}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Logo Unity.\relax }}{17}{figure.caption.17}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Visual Studio Logo.\relax }}{18}{figure.caption.18}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Logo Framwork DotNet.\relax }}{18}{figure.caption.19}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Capture d'écran UnityEditor.\relax }}{19}{figure.caption.20}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Blender Logo.\relax }}{20}{figure.caption.23}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Adobe Audition Logo.\relax }}{21}{figure.caption.24}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Adobe Photoshop Logo.\relax }}{21}{figure.caption.25}%
-\contentsline {figure}{\numberline {18}{\ignorespaces StarUML Logo.\relax }}{21}{figure.caption.26}%
-\contentsline {figure}{\numberline {19}{\ignorespaces comment fonction IL2CPP.\relax }}{22}{figure.caption.27}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Schéma démonstrative.\relax }}{22}{figure.caption.29}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Capture d'écran de services GooglePlay pour RA dans Play Store.\relax }}{23}{figure.caption.32}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Fichier APK dans un gestionnaire des fichiers\relax }}{24}{figure.caption.33}%
-\contentsline {figure}{\numberline {23}{\ignorespaces Accepter l'installation d'applications inconnues.\relax }}{24}{figure.caption.34}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Installation du fichier APK.\relax }}{25}{figure.caption.35}%
-\contentsline {figure}{\numberline {25}{\ignorespaces icône d'application sur Menu d'application.\relax }}{25}{figure.caption.36}%
-\contentsline {figure}{\numberline {26}{\ignorespaces Menu des langues natales.\relax }}{26}{figure.caption.37}%
-\contentsline {figure}{\numberline {27}{\ignorespaces Menu des cours proposer.\relax }}{27}{figure.caption.38}%
-\contentsline {figure}{\numberline {28}{\ignorespaces Événement d'icône Setting.\relax }}{27}{figure.caption.39}%
-\contentsline {figure}{\numberline {29}{\ignorespaces Menu des langues de cours.\relax }}{28}{figure.caption.40}%
-\contentsline {figure}{\numberline {30}{\ignorespaces SessionAR autoriser l'utilisation de camera.\relax }}{28}{figure.caption.41}%
-\contentsline {figure}{\numberline {31}{\ignorespaces SessionAR popUp indice.\relax }}{29}{figure.caption.42}%
-\contentsline {figure}{\numberline {32}{\ignorespaces SessionAR détecte le plan.\relax }}{29}{figure.caption.43}%
-\contentsline {figure}{\numberline {33}{\ignorespaces SessionAR poser indice.\relax }}{30}{figure.caption.44}%
-\contentsline {figure}{\numberline {34}{\ignorespaces Événement Cliquer sur objet.\relax }}{30}{figure.caption.45}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Captures d'écran d'application MondlyAR sur PlayStore et sur l'appareil.\relax }}{11}{figure.caption.5}%
+\contentsline {figure}{\numberline {2}{\ignorespaces navigation en mode linéaire.\relax }}{12}{figure.caption.7}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Prototypage base fidélité (éditable).\relax }}{12}{figure.caption.9}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Logo UML\relax }}{13}{figure.caption.10}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Diagramme de cas d'utilisation.\relax }}{14}{figure.caption.11}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Diagramme de séquence Ouvrir sessionAR.\relax }}{15}{figure.caption.13}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Diagramme de séquence Changer langue Natale.\relax }}{16}{figure.caption.15}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Diagramme de classes.\relax }}{17}{figure.caption.16}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Cycle de vie MonoBehaivour.\relax }}{18}{figure.caption.18}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Logo Unity.\relax }}{18}{figure.caption.18}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Visual Studio Logo.\relax }}{19}{figure.caption.19}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Logo Framwork DotNet.\relax }}{19}{figure.caption.20}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Capture d'écran UnityEditor.\relax }}{20}{figure.caption.21}%
+\contentsline {figure}{\numberline {14}{\ignorespaces ARCore wallpaper.\relax }}{21}{figure.caption.22}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Blender Logo.\relax }}{21}{figure.caption.25}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Adobe Audition Logo.\relax }}{22}{figure.caption.26}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Adobe Photoshop Logo.\relax }}{22}{figure.caption.27}%
+\contentsline {figure}{\numberline {19}{\ignorespaces StarUML Logo.\relax }}{22}{figure.caption.28}%
+\contentsline {figure}{\numberline {20}{\ignorespaces comment fonction IL2CPP.\relax }}{23}{figure.caption.29}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Schéma démonstrative.\relax }}{23}{figure.caption.31}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Capture d'écran de services GooglePlay pour RA dans Play Store.\relax }}{25}{figure.caption.35}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Fichier APK dans un gestionnaire des fichiers\relax }}{26}{figure.caption.36}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Accepter l'installation d'applications inconnues.\relax }}{26}{figure.caption.37}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Installation du fichier APK.\relax }}{27}{figure.caption.38}%
+\contentsline {figure}{\numberline {26}{\ignorespaces icône d'application sur Menu d'application.\relax }}{27}{figure.caption.39}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Menu des langues natales.\relax }}{28}{figure.caption.40}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Menu des cours proposer.\relax }}{29}{figure.caption.41}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Événement d'icône Setting.\relax }}{29}{figure.caption.42}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Menu des langues de cours.\relax }}{30}{figure.caption.43}%
+\contentsline {figure}{\numberline {31}{\ignorespaces SessionAR autoriser l'utilisation de camera.\relax }}{30}{figure.caption.44}%
+\contentsline {figure}{\numberline {32}{\ignorespaces SessionAR popUp indice.\relax }}{31}{figure.caption.45}%
+\contentsline {figure}{\numberline {33}{\ignorespaces SessionAR détecte le plan.\relax }}{31}{figure.caption.46}%
+\contentsline {figure}{\numberline {34}{\ignorespaces SessionAR poser indice.\relax }}{32}{figure.caption.47}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Événement Cliquer sur objet.\relax }}{32}{figure.caption.48}%

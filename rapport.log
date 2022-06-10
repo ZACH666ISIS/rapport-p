@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.4)  10 JUN 2022 01:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.4)  10 JUN 2022 02:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -671,11 +671,11 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 s.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-<usmslogo.png, id=135, 261.97874pt x 193.72375pt>
-File: usmslogo.png Graphic file (type png)
-<use usmslogo.png>
-Package pdftex.def Info: usmslogo.png  used on input line 67.
-(pdftex.def)             Requested size: 89.99901pt x 74.99918pt.
+<pg.png, id=135, 313.17pt x 89.58469pt>
+File: pg.png Graphic file (type png)
+<use pg.png>
+Package pdftex.def Info: pg.png  used on input line 67.
+(pdftex.def)             Requested size: 262.20085pt x 75.0pt.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 69.
 
 
@@ -688,364 +688,525 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 69.
 (C:\Users\ISIS_666\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<fstlogo.png, id=137, 225.84375pt x 222.8325pt>
-File: fstlogo.png Graphic file (type png)
-<use fstlogo.png>
-Package pdftex.def Info: fstlogo.png  used on input line 72.
-(pdftex.def)             Requested size: 49.99936pt x 59.99896pt.
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 65--71
+[]$[]$
+ []
 
 
 LaTeX Font Warning: Font shape `T1/cmr/b/it' undefined
-(Font)              using `T1/cmr/bx/it' instead on input line 102.
+(Font)              using `T1/cmr/bx/it' instead on input line 86.
 
 
 LaTeX Font Warning: Font shape `T1/cmr/b/it' undefined
-(Font)              using `T1/cmr/bx/it' instead on input line 102.
+(Font)              using `T1/cmr/bx/it' instead on input line 87.
+
+
+LaTeX Font Warning: Font shape `T1/cmr/b/it' undefined
+(Font)              using `T1/cmr/bx/it' instead on input line 93.
 
 [1
 
-{C:/Users/ISIS_666/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./usmslog
-o.png> <./fstlogo.png>] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 150--154
+{C:/Users/ISIS_666/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./pg.png>
+]
+
+LaTeX Warning: Command \' invalid in math mode on input line 126.
+
+
+LaTeX Warning: Command \^ invalid in math mode on input line 126.
+
+Missing character: There is no é in font cmr12!
+Missing character: There is no ê in font cmr12!
+
+LaTeX Warning: Reference `lastpage' on page 2 undefined on input line 129.
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 132--136
 
  []
 
-[3] [4] (rapport.toc)
+
+LaTeX Warning: Reference `lastpage' on page 3 undefined on input line 139.
+
+[3]
+
+LaTeX Warning: Reference `lastpage' on page 4 undefined on input line 147.
+
+[4] (rapport.toc)
 \tf@toc=\write5
 \openout5 = `rapport.toc'.
 
- [5] [6] (rapport.lof)
+
+
+LaTeX Warning: Reference `lastpage' on page 5 undefined on input line 153.
+
+[5]
+
+LaTeX Warning: Reference `lastpage' on page 6 undefined on input line 153.
+
+[6] (rapport.lof)
 \tf@lof=\write6
 \openout6 = `rapport.lof'.
 
- [7]
-Underfull \hbox (badness 10000) in paragraph at lines 176--177
+
+
+LaTeX Warning: Reference `lastpage' on page 7 undefined on input line 155.
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--182
+Underfull \hbox (badness 10000) in paragraph at lines 160--164
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--184
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--186
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--188
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
 
  []
 
-[8] [9]
-<image/a1.jpg, id=305, 1084.05pt x 1927.2pt>
+
+LaTeX Warning: Reference `lastpage' on page 8 undefined on input line 175.
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 186--189
+
+ []
+
+
+LaTeX Warning: Reference `lastpage' on page 9 undefined on input line 190.
+
+[9]
+
+LaTeX Warning: Reference `lastpage' on page 10 undefined on input line 201.
+
+[10]
+<image/a1.jpg, id=313, 1084.05pt x 1927.2pt>
 File: image/a1.jpg Graphic file (type jpg)
 <use image/a1.jpg>
-Package pdftex.def Info: image/a1.jpg  used on input line 209.
+Package pdftex.def Info: image/a1.jpg  used on input line 204.
 (pdftex.def)             Requested size: 151.76596pt x 269.80617pt.
-<image/a2.jpg, id=306, 1084.05pt x 1927.2pt>
+<image/a2.jpg, id=314, 1084.05pt x 1927.2pt>
 File: image/a2.jpg Graphic file (type jpg)
 <use image/a2.jpg>
-Package pdftex.def Info: image/a2.jpg  used on input line 210.
+Package pdftex.def Info: image/a2.jpg  used on input line 205.
 (pdftex.def)             Requested size: 151.76596pt x 269.80617pt.
-<image/a3.jpg, id=307, 1084.05pt x 1927.2pt>
+<image/a3.jpg, id=315, 1084.05pt x 1927.2pt>
 File: image/a3.jpg Graphic file (type jpg)
 <use image/a3.jpg>
-Package pdftex.def Info: image/a3.jpg  used on input line 211.
+Package pdftex.def Info: image/a3.jpg  used on input line 206.
 (pdftex.def)             Requested size: 151.76596pt x 269.80617pt.
- [10 <./image/a1.jpg> <./image/a2.jpg> <./image/a3.jpg>]
-<ttn.png, id=313, 1181.41376pt x 549.05125pt>
+
+
+LaTeX Warning: Reference `lastpage' on page 11 undefined on input line 212.
+
+[11 <./image/a1.jpg> <./image/a2.jpg> <./image/a3.jpg>]
+<ttn.png, id=321, 1181.41376pt x 549.05125pt>
 File: ttn.png Graphic file (type png)
 <use ttn.png>
-Package pdftex.def Info: ttn.png  used on input line 225.
+Package pdftex.def Info: ttn.png  used on input line 220.
 (pdftex.def)             Requested size: 354.42686pt x 164.71664pt.
-<FRAMS.png, id=314, 491.8375pt x 628.3475pt>
+<FRAMS.png, id=322, 491.8375pt x 628.3475pt>
 File: FRAMS.png Graphic file (type png)
 <use FRAMS.png>
-Package pdftex.def Info: FRAMS.png  used on input line 232.
+Package pdftex.def Info: FRAMS.png  used on input line 227.
 (pdftex.def)             Requested size: 211.486pt x 270.18416pt.
- [11 <./ttn.png> <./FRAMS.png>]
-<uml.png, id=323, 263.98625pt x 191.71625pt>
+
+
+LaTeX Warning: Reference `lastpage' on page 12 undefined on input line 231.
+
+[12 <./ttn.png> <./FRAMS.png>]
+<uml.png, id=331, 263.98625pt x 191.71625pt>
 File: uml.png Graphic file (type png)
 <use uml.png>
-Package pdftex.def Info: uml.png  used on input line 247.
+Package pdftex.def Info: uml.png  used on input line 242.
 (pdftex.def)             Requested size: 227.62204pt x 165.3057pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--248
+Underfull \hbox (badness 10000) in paragraph at lines 236--243
 \T1/cmr/m/n/12 met de res-ter in-dé-pen-dant d'un lan-gage de pro-gram-ma-tion 
 donné.
  []
 
-<uc.png, id=324, 1246.6575pt x 715.67375pt>
+
+LaTeX Warning: Reference `lastpage' on page 13 undefined on input line 261.
+
+[13 <./uml.png>]
+<uc.png, id=342, 1246.6575pt x 715.67375pt>
 File: uc.png Graphic file (type png)
 <use uc.png>
-Package pdftex.def Info: uc.png  used on input line 282.
-(pdftex.def)             Requested size: 321.60127pt x 184.61838pt.
-[12 <./uml.png>]
-<SequenceDiagram.png, id=337, 1206.5075pt x 1061.9675pt>
+Package pdftex.def Info: uc.png  used on input line 278.
+(pdftex.def)             Requested size: 542.025pt x 311.16267pt.
+
+Overfull \hbox (36.135pt too wide) in paragraph at lines 278--279
+ [] 
+ []
+
+
+LaTeX Warning: Reference `lastpage' on page 14 undefined on input line 282.
+
+[14 <./uc.png>]
+<SequenceDiagram.png, id=350, 1206.5075pt x 1061.9675pt>
 File: SequenceDiagram.png Graphic file (type png)
 <use SequenceDiagram.png>
-Package pdftex.def Info: SequenceDiagram.png  used on input line 292.
+Package pdftex.def Info: SequenceDiagram.png  used on input line 288.
 (pdftex.def)             Requested size: 505.89pt x 445.27791pt.
- [13 <./uc.png>] [14 <./SequenceDiagram.png>]
-<SequenceDiagram2.png, id=350, 1110.1475pt x 572.1375pt>
+
+
+LaTeX Warning: Reference `lastpage' on page 15 undefined on input line 291.
+
+[15 <./SequenceDiagram.png>]
+<SequenceDiagram2.png, id=357, 1110.1475pt x 572.1375pt>
 File: SequenceDiagram2.png Graphic file (type png)
 <use SequenceDiagram2.png>
-Package pdftex.def Info: SequenceDiagram2.png  used on input line 301.
+Package pdftex.def Info: SequenceDiagram2.png  used on input line 297.
 (pdftex.def)             Requested size: 505.89pt x 260.72455pt.
- [15 <./SequenceDiagram2.png>]
-<Main.png, id=357, 1302.8675pt x 893.3375pt>
+
+
+LaTeX Warning: Reference `lastpage' on page 16 undefined on input line 301.
+
+[16 <./SequenceDiagram2.png>]
+<Main.png, id=364, 1302.8675pt x 893.3375pt>
 File: Main.png Graphic file (type png)
 <use Main.png>
-Package pdftex.def Info: Main.png  used on input line 311.
-(pdftex.def)             Requested size: 505.89pt x 346.87352pt.
- [16 <./Main.png>]
-<life.png, id=363, 396.48125pt x 620.3175pt>
+Package pdftex.def Info: Main.png  used on input line 306.
+(pdftex.def)             Requested size: 505.88971pt x 578.16798pt.
+
+
+LaTeX Warning: Reference `lastpage' on page 17 undefined on input line 310.
+
+[17 <./Main.png>]
+<life.png, id=370, 396.48125pt x 620.3175pt>
 File: life.png Graphic file (type png)
 <use life.png>
-Package pdftex.def Info: life.png  used on input line 322.
+Package pdftex.def Info: life.png  used on input line 319.
 (pdftex.def)             Requested size: 158.58968pt x 248.1226pt.
-<Unity.png, id=364, 1606.0pt x 908.39375pt>
+<Unity.png, id=371, 1606.0pt x 908.39375pt>
 File: Unity.png Graphic file (type png)
 <use Unity.png>
-Package pdftex.def Info: Unity.png  used on input line 324.
+Package pdftex.def Info: Unity.png  used on input line 321.
 (pdftex.def)             Requested size: 160.6094pt x 90.8447pt.
- [17 <./life.png> <./Unity.png>]
-<vs.png, id=372, 602.25pt x 301.125pt>
+
+
+LaTeX Warning: Reference `lastpage' on page 18 undefined on input line 325.
+
+[18 <./life.png> <./Unity.png>]
+<vs.png, id=379, 602.25pt x 301.125pt>
 File: vs.png Graphic file (type png)
 <use vs.png>
-Package pdftex.def Info: vs.png  used on input line 333.
+Package pdftex.def Info: vs.png  used on input line 330.
 (pdftex.def)             Requested size: 421.57211pt x 210.78606pt.
-<netlogo.png, id=373, 457.71pt x 457.71pt>
+<netlogo.png, id=380, 457.71pt x 457.71pt>
 File: netlogo.png Graphic file (type png)
 <use netlogo.png>
-Package pdftex.def Info: netlogo.png  used on input line 341.
+Package pdftex.def Info: netlogo.png  used on input line 338.
 (pdftex.def)             Requested size: 137.31406pt x 137.31406pt.
- [18 <./vs.png> <./netlogo.png>]
-<player.png, id=380, 631.60968pt x 431.36156pt>
+
+
+LaTeX Warning: Reference `lastpage' on page 19 undefined on input line 342.
+
+[19 <./vs.png> <./netlogo.png>]
+<player.png, id=388, 631.60968pt x 431.36156pt>
 File: player.png Graphic file (type png)
 <use player.png>
-Package pdftex.def Info: player.png  used on input line 350.
+Package pdftex.def Info: player.png  used on input line 347.
 (pdftex.def)             Requested size: 252.9478pt x 289.08972pt.
-<builder.png, id=381, 481.8pt x 454.69875pt>
+<builder.png, id=389, 481.8pt x 454.69875pt>
 File: builder.png Graphic file (type png)
 <use builder.png>
-Package pdftex.def Info: builder.png  used on input line 351.
+Package pdftex.def Info: builder.png  used on input line 348.
 (pdftex.def)             Requested size: 252.94142pt x 289.08434pt.
 
-Overfull \hbox (2.60971pt too wide) in paragraph at lines 350--352
+Overfull \hbox (2.60971pt too wide) in paragraph at lines 347--349
 [][] [] 
  []
 
-[19 <./player.png> <./builder.png>]
-<arcore.png, id=389, 166.6225pt x 351.81438pt>
+
+LaTeX Warning: Reference `lastpage' on page 20 undefined on input line 354.
+
+[20 <./player.png> <./builder.png>]
+<Acr.png, id=396, 1405.25pt x 789.95125pt>
+File: Acr.png Graphic file (type png)
+<use Acr.png>
+Package pdftex.def Info: Acr.png  used on input line 357.
+(pdftex.def)             Requested size: 192.83115pt x 108.405pt.
+<arcore.png, id=397, 166.6225pt x 351.81438pt>
 File: arcore.png Graphic file (type png)
 <use arcore.png>
-Package pdftex.def Info: arcore.png  used on input line 363.
+Package pdftex.def Info: arcore.png  used on input line 367.
 (pdftex.def)             Requested size: 252.96373pt x 216.80743pt.
-<arf.png, id=390, 317.185pt x 352.31625pt>
+<arf.png, id=398, 317.185pt x 352.31625pt>
 File: arf.png Graphic file (type png)
 <use arf.png>
-Package pdftex.def Info: arf.png  used on input line 367.
+Package pdftex.def Info: arf.png  used on input line 371.
 (pdftex.def)             Requested size: 252.95459pt x 216.81029pt.
 
-Overfull \hbox (2.61047pt too wide) in paragraph at lines 362--370
+Overfull \hbox (2.61047pt too wide) in paragraph at lines 366--374
 [][] [] 
  []
 
-<bld.png, id=391, 2569.6pt x 690.58pt>
+<bld.png, id=399, 2569.6pt x 690.58pt>
 File: bld.png Graphic file (type png)
 <use bld.png>
-Package pdftex.def Info: bld.png  used on input line 375.
+Package pdftex.def Info: bld.png  used on input line 379.
 (pdftex.def)             Requested size: 268.89456pt x 72.26999pt.
-[20 <./arcore.png> <./arf.png> <./bld.png>]
-<AA.png, id=401, 2509.375pt x 2509.375pt>
+
+LaTeX Warning: Reference `lastpage' on page 21 undefined on input line 383.
+
+[21 <./Acr.png (PNG copy)> <./arcore.png> <./arf.png> <./bld.png>]
+<AA.png, id=409, 2509.375pt x 2509.375pt>
 File: AA.png Graphic file (type png)
 <use AA.png>
-Package pdftex.def Info: AA.png  used on input line 384.
+Package pdftex.def Info: AA.png  used on input line 388.
 (pdftex.def)             Requested size: 50.19809pt x 50.19809pt.
-<PS.png, id=402, 771.88374pt x 831.105pt>
+<PS.png, id=410, 771.88374pt x 831.105pt>
 File: PS.png Graphic file (type png)
 <use PS.png>
-Package pdftex.def Info: PS.png  used on input line 392.
+Package pdftex.def Info: PS.png  used on input line 396.
 (pdftex.def)             Requested size: 84.90747pt x 91.42183pt.
-<struml.png, id=403, 501.875pt x 476.78125pt>
+<struml.png, id=411, 501.875pt x 476.78125pt>
 File: struml.png Graphic file (type png)
 <use struml.png>
-Package pdftex.def Info: struml.png  used on input line 400.
+Package pdftex.def Info: struml.png  used on input line 404.
 (pdftex.def)             Requested size: 60.2224pt x 57.21127pt.
- [21 <./AA.png> <./PS.png> <./struml.png>]
-<il2cpp.png, id=411, 608.2725pt x 223.83624pt>
+
+
+LaTeX Warning: Reference `lastpage' on page 22 undefined on input line 408.
+
+[22 <./AA.png> <./PS.png> <./struml.png>]
+<il2cpp.png, id=419, 608.2725pt x 223.83624pt>
 File: il2cpp.png Graphic file (type png)
 <use il2cpp.png>
-Package pdftex.def Info: il2cpp.png  used on input line 409.
+Package pdftex.def Info: il2cpp.png  used on input line 413.
 (pdftex.def)             Requested size: 304.13551pt x 111.91785pt.
-<Waree.png, id=412, 2029.5825pt x 970.62625pt>
+<Waree.png, id=420, 2029.5825pt x 970.62625pt>
 File: Waree.png Graphic file (type png)
 <use Waree.png>
-Package pdftex.def Info: Waree.png  used on input line 419.
+Package pdftex.def Info: Waree.png  used on input line 423.
 (pdftex.def)             Requested size: 453.35367pt x 216.81pt.
- [22 <./il2cpp.png (PNG copy)> <./Waree.png>]
-<googleRA.jpg, id=419, 1084.05pt x 1927.2pt>
+
+
+LaTeX Warning: Reference `lastpage' on page 23 undefined on input line 427.
+
+[23 <./il2cpp.png (PNG copy)> <./Waree.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 433--436
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--436
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 441--449
+
+ []
+
+
+LaTeX Warning: Reference `lastpage' on page 24 undefined on input line 454.
+
+[24]
+<googleRA.jpg, id=437, 1084.05pt x 1927.2pt>
 File: googleRA.jpg Graphic file (type jpg)
 <use googleRA.jpg>
-Package pdftex.def Info: googleRA.jpg  used on input line 433.
+Package pdftex.def Info: googleRA.jpg  used on input line 459.
 (pdftex.def)             Requested size: 162.60048pt x 289.06754pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 430--438
+Underfull \hbox (badness 10000) in paragraph at lines 456--464
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--442
+Underfull \hbox (badness 10000) in paragraph at lines 465--468
 
  []
 
-[23 <./googleRA.jpg>]
-<image/1.jpg, id=426, 1084.05pt x 1927.2pt>
+
+LaTeX Warning: Reference `lastpage' on page 25 undefined on input line 468.
+
+[25 <./googleRA.jpg>]
+<image/1.jpg, id=444, 1084.05pt x 1927.2pt>
 File: image/1.jpg Graphic file (type jpg)
 <use image/1.jpg>
-Package pdftex.def Info: image/1.jpg  used on input line 445.
+Package pdftex.def Info: image/1.jpg  used on input line 471.
 (pdftex.def)             Requested size: 140.93144pt x 250.5448pt.
-<image/0.jpg, id=427, 1084.05pt x 1927.2pt>
+<image/0.jpg, id=445, 1084.05pt x 1927.2pt>
 File: image/0.jpg Graphic file (type jpg)
 <use image/0.jpg>
-Package pdftex.def Info: image/0.jpg  used on input line 452.
+Package pdftex.def Info: image/0.jpg  used on input line 478.
 (pdftex.def)             Requested size: 151.76596pt x 269.80617pt.
-<image/00.jpg, id=428, 1084.05pt x 1927.2pt>
+<image/00.jpg, id=446, 1084.05pt x 1927.2pt>
 File: image/00.jpg Graphic file (type jpg)
 <use image/00.jpg>
-Package pdftex.def Info: image/00.jpg  used on input line 453.
+Package pdftex.def Info: image/00.jpg  used on input line 479.
 (pdftex.def)             Requested size: 151.76596pt x 269.80617pt.
- [24 <./image/1.jpg> <./image/0.jpg> <./image/00.jpg>]
-<image/2.jpg, id=433, 1084.05pt x 1927.2pt>
+
+
+LaTeX Warning: Reference `lastpage' on page 26 undefined on input line 484.
+
+[26 <./image/1.jpg> <./image/0.jpg> <./image/00.jpg>]
+<image/2.jpg, id=451, 1084.05pt x 1927.2pt>
 File: image/2.jpg Graphic file (type jpg)
 <use image/2.jpg>
-Package pdftex.def Info: image/2.jpg  used on input line 461.
+Package pdftex.def Info: image/2.jpg  used on input line 487.
 (pdftex.def)             Requested size: 151.76596pt x 269.80617pt.
-<image/3.jpg, id=434, 1084.05pt x 1927.2pt>
+<image/3.jpg, id=452, 1084.05pt x 1927.2pt>
 File: image/3.jpg Graphic file (type jpg)
 <use image/3.jpg>
-Package pdftex.def Info: image/3.jpg  used on input line 462.
+Package pdftex.def Info: image/3.jpg  used on input line 488.
 (pdftex.def)             Requested size: 151.76596pt x 269.80617pt.
-<image/4.jpg, id=435, 1084.05pt x 1927.2pt>
+<image/4.jpg, id=453, 1084.05pt x 1927.2pt>
 File: image/4.jpg Graphic file (type jpg)
 <use image/4.jpg>
-Package pdftex.def Info: image/4.jpg  used on input line 469.
+Package pdftex.def Info: image/4.jpg  used on input line 495.
 (pdftex.def)             Requested size: 151.76596pt x 269.80617pt.
 
-[25 <./image/2.jpg> <./image/3.jpg> <./image/4.jpg>]
-<image/5.jpg, id=441, 1084.05pt x 1927.2pt>
+
+LaTeX Warning: Reference `lastpage' on page 27 undefined on input line 501.
+
+[27 <./image/2.jpg> <./image/3.jpg> <./image/4.jpg>]
+<image/5.jpg, id=458, 1084.05pt x 1927.2pt>
 File: image/5.jpg Graphic file (type jpg)
 <use image/5.jpg>
-Package pdftex.def Info: image/5.jpg  used on input line 477.
+Package pdftex.def Info: image/5.jpg  used on input line 504.
 (pdftex.def)             Requested size: 162.60048pt x 289.06754pt.
- [26 <./image/5.jpg>]
-<image/6.jpg, id=446, 1084.05pt x 1927.2pt>
+
+
+LaTeX Warning: Reference `lastpage' on page 28 undefined on input line 510.
+
+[28 <./image/5.jpg>]
+<image/6.jpg, id=463, 1084.05pt x 1927.2pt>
 File: image/6.jpg Graphic file (type jpg)
 <use image/6.jpg>
-Package pdftex.def Info: image/6.jpg  used on input line 486.
+Package pdftex.def Info: image/6.jpg  used on input line 513.
 (pdftex.def)             Requested size: 140.93144pt x 250.5448pt.
-<image/7.jpg, id=447, 1084.05pt x 1927.2pt>
+<image/7.jpg, id=464, 1084.05pt x 1927.2pt>
 File: image/7.jpg Graphic file (type jpg)
 <use image/7.jpg>
-Package pdftex.def Info: image/7.jpg  used on input line 493.
+Package pdftex.def Info: image/7.jpg  used on input line 520.
 (pdftex.def)             Requested size: 140.93144pt x 250.5448pt.
-<image/8.jpg, id=448, 1084.05pt x 1927.2pt>
+<image/8.jpg, id=465, 1084.05pt x 1927.2pt>
 File: image/8.jpg Graphic file (type jpg)
 <use image/8.jpg>
-Package pdftex.def Info: image/8.jpg  used on input line 494.
+Package pdftex.def Info: image/8.jpg  used on input line 521.
 (pdftex.def)             Requested size: 140.93144pt x 250.5448pt.
 
-[27 <./image/6.jpg> <./image/7.jpg> <./image/8.jpg>]
-<image/9.jpg, id=453, 1084.05pt x 1927.2pt>
+
+LaTeX Warning: Reference `lastpage' on page 29 undefined on input line 526.
+
+[29 <./image/6.jpg> <./image/7.jpg> <./image/8.jpg>]
+<image/9.jpg, id=470, 1084.05pt x 1927.2pt>
 File: image/9.jpg Graphic file (type jpg)
 <use image/9.jpg>
-Package pdftex.def Info: image/9.jpg  used on input line 502.
+Package pdftex.def Info: image/9.jpg  used on input line 529.
 (pdftex.def)             Requested size: 151.76596pt x 269.80617pt.
-<image/10.jpg, id=454, 1084.05pt x 1927.2pt>
+<image/10.jpg, id=471, 1084.05pt x 1927.2pt>
 File: image/10.jpg Graphic file (type jpg)
 <use image/10.jpg>
-Package pdftex.def Info: image/10.jpg  used on input line 509.
+Package pdftex.def Info: image/10.jpg  used on input line 536.
 (pdftex.def)             Requested size: 151.76596pt x 269.80617pt.
- [28 <./image/9.jpg> <./image/10.jpg>]
-<image/77.jpg, id=459, 1084.05pt x 1927.2pt>
+
+
+LaTeX Warning: Reference `lastpage' on page 30 undefined on input line 541.
+
+[30 <./image/9.jpg> <./image/10.jpg>]
+<image/77.jpg, id=476, 1084.05pt x 1927.2pt>
 File: image/77.jpg Graphic file (type jpg)
 <use image/77.jpg>
-Package pdftex.def Info: image/77.jpg  used on input line 517.
+Package pdftex.def Info: image/77.jpg  used on input line 544.
 (pdftex.def)             Requested size: 151.76596pt x 269.80617pt.
-<image/11.jpg, id=460, 1084.05pt x 1927.2pt>
+<image/11.jpg, id=477, 1084.05pt x 1927.2pt>
 File: image/11.jpg Graphic file (type jpg)
 <use image/11.jpg>
-Package pdftex.def Info: image/11.jpg  used on input line 525.
+Package pdftex.def Info: image/11.jpg  used on input line 551.
 (pdftex.def)             Requested size: 151.76596pt x 269.80617pt.
- [29 <./image/77.jpg> <./image/11.jpg>]
-<image/12.jpg, id=465, 1084.05pt x 1927.2pt>
+
+
+LaTeX Warning: Reference `lastpage' on page 31 undefined on input line 556.
+
+[31 <./image/77.jpg> <./image/11.jpg>]
+<image/12.jpg, id=483, 1084.05pt x 1927.2pt>
 File: image/12.jpg Graphic file (type jpg)
 <use image/12.jpg>
-Package pdftex.def Info: image/12.jpg  used on input line 533.
-(pdftex.def)             Requested size: 151.76596pt x 269.80617pt.
-<image/13.jpg, id=466, 1084.05pt x 1927.2pt>
+Package pdftex.def Info: image/12.jpg  used on input line 559.
+(pdftex.def)             Requested size: 140.93144pt x 250.5448pt.
+<image/13.jpg, id=484, 1084.05pt x 1927.2pt>
 File: image/13.jpg Graphic file (type jpg)
 <use image/13.jpg>
-Package pdftex.def Info: image/13.jpg  used on input line 540.
+Package pdftex.def Info: image/13.jpg  used on input line 566.
 (pdftex.def)             Requested size: 140.93144pt x 250.5448pt.
-<image/14.jpg, id=467, 1084.05pt x 1927.2pt>
+<image/14.jpg, id=485, 1084.05pt x 1927.2pt>
 File: image/14.jpg Graphic file (type jpg)
 <use image/14.jpg>
-Package pdftex.def Info: image/14.jpg  used on input line 541.
+Package pdftex.def Info: image/14.jpg  used on input line 567.
 (pdftex.def)             Requested size: 140.93144pt x 250.5448pt.
-<image/15.jpg, id=468, 1084.05pt x 1927.2pt>
+<image/15.jpg, id=486, 1084.05pt x 1927.2pt>
 File: image/15.jpg Graphic file (type jpg)
 <use image/15.jpg>
-Package pdftex.def Info: image/15.jpg  used on input line 542.
+Package pdftex.def Info: image/15.jpg  used on input line 568.
 (pdftex.def)             Requested size: 140.93144pt x 250.5448pt.
- [30 <./image/12.jpg> <./image/13.jpg> <./image/14.jpg> <./image/15.jpg>] [31]
-Underfull \hbox (badness 10000) in paragraph at lines 583--584
+
+
+LaTeX Warning: Reference `lastpage' on page 32 undefined on input line 573.
+
+[32 <./image/12.jpg> <./image/13.jpg> <./image/14.jpg> <./image/15.jpg>]
+
+LaTeX Warning: Reference `lastpage' on page 33 undefined on input line 594.
+
+[33]
+Underfull \hbox (badness 10000) in paragraph at lines 609--610
 
  []
 
-[32] (rapport.aux)
+
+LaTeX Warning: Reference `lastpage' on page 34 undefined on input line 611.
+
+[34] (rapport.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: 6EA6653C82896C482E99E2FEAAFEA473;4921.
+(rerunfilecheck)             Checksum: 0432AD1F685CDF588E88145E2948EA29;4901.
  ) 
 Here is how much of TeX's memory you used:
- 16699 strings out of 478582
- 274508 string characters out of 2842929
- 674921 words of memory out of 3000000
- 34443 multiletter control sequences out of 15000+600000
- 491378 words of font info for 88 fonts, out of 8000000 for 9000
+ 16725 strings out of 478582
+ 274740 string characters out of 2842929
+ 674939 words of memory out of 3000000
+ 34455 multiletter control sequences out of 15000+600000
+ 493844 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,11n,77p,770b,507s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\ISIS_666\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\e
 ccc1200.pk> <C:\Users\ISIS_666\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecrm1440.pk> <C:\Users\ISIS_666\AppData\Local\MiKTeX\fonts/pk/ljfour/jk
-nappen/ec/dpi600\ecrm0800.pk> <C:\Users\ISIS_666\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecrb1095.pk> <C:\Users\ISIS_666\AppData\Local\MiKTeX\
-fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\ISIS_666\AppData\Loca
-l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\ISIS_666\App
-Data\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrb1200.pk> <C:\Users\ISI
-S_666\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrb1440.pk> <C:\
-Users\ISIS_666\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1200
+/dpi600\ecrm0800.pk> <C:\Users\ISIS_666\AppData\Local\MiKTeX\fonts/pk/ljfour/jk
+nappen/ec/dpi600\ecrb1095.pk> <C:\Users\ISIS_666\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\ISIS_666\AppData\Local\MiKTeX\
+fonts/pk/ljfour/jknappen/ec/dpi600\ecrb1200.pk> <C:\Users\ISIS_666\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1200.pk> <C:\Users\ISIS_666\App
+Data\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrb1728.pk> <C:\Users\ISI
+S_666\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\
+Users\ISIS_666\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrb1440
 .pk> <C:\Users\ISIS_666\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600
-\ecrb1728.pk> <C:\Users\ISIS_666\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
-ec/dpi600\ecrm1728.pk> <C:\Users\ISIS_666\AppData\Local\MiKTeX\fonts/pk/ljfour/
-jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\ISIS_666\AppData\Local\MiKTeX\fonts/p
-k/ljfour/jknappen/ec/dpi600\ecrm1200.pk><C:/Users/ISIS_666/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/ISIS_666/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ISIS_6
-66/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/
-Users/ISIS_666/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbol
-s/msam10.pfb>
-Output written on rapport.pdf (32 pages, 10708124 bytes).
+\tcrm1200.pk> <C:\Users\ISIS_666\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
+ec/dpi600\ecrm1200.pk><C:/Users/ISIS_666/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmmi12.pfb><C:/Users/ISIS_666/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ISIS_666/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ISIS_666/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on rapport.pdf (34 pages, 11944260 bytes).
 PDF statistics:
- 1031 PDF objects out of 1200 (max. 8388607)
- 139 named destinations out of 1000 (max. 500000)
+ 1015 PDF objects out of 1200 (max. 8388607)
+ 152 named destinations out of 1000 (max. 500000)
  490 words of extra memory for PDF output out of 10000 (max. 10000000)
 
